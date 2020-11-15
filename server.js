@@ -1,0 +1,13 @@
+const app = require('express')()
+const cors = require('cors')
+const helmet = require('helmet')
+
+app.use(cors())
+app.use(helmet())
+
+app.use((req, res) => {
+  res.setHeader('Accept-Encoding', 'gzip, compress, br')
+  res.sendFile(__dirname + decodeURIComponent(req.url))
+})
+
+app.listen(process.env.PORT || 1234)
