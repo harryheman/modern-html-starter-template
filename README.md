@@ -24,7 +24,7 @@
 ## Installation
 
 ```
-git clone https://github.com/harryheman/Modern-HTML-Template.git
+git clone https://github.com/harryheman/Modern-HTML-Starter-Template.git
 cd Modern-HTML-Template
 npm i / yarn
 ```
