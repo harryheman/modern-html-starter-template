@@ -25,7 +25,7 @@
 
 ```
 git clone https://github.com/harryheman/Modern-HTML-Starter-Template.git
-cd Modern-HTML-Template
+cd Modern-HTML-Starter-Template
 npm i / yarn
 ```
 
