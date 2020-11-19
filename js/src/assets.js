@@ -13,4 +13,5 @@ export const assets = [
   'Local Express.js Server Example',
   'Error 404 Page Example',
   'README.md',
+  'And More'
 ]
