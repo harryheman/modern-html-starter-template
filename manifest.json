@@ -2,7 +2,7 @@
   "name": "HTML Template",
   "short_name": "MHST",
   "scope": "/",
-  "start_url": "/",
+  "start_url": ".",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#eee",

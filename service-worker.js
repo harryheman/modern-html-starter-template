@@ -2,6 +2,7 @@ const NAME = 'cache-name-v1'
 
 const FILES = [
   './index.html',
+  './404.html',
   './css/style.css',
   './css/modules/footer.css',
   './css/modules/header.css',
@@ -9,6 +10,8 @@ const FILES = [
   './css/modules/main.css',
 
   './script.js',
+  './server.js',
+  './service-worker.js',
   './js/src/assets.js',
   './js/modules/create-timer.js',
   './js/modules/loader.js',
@@ -17,7 +20,7 @@ const FILES = [
   './icons/128x128.png',
   './icons/150x150.png',
   './icons/256x256.png',
-  './icons/512x512.png',
+  './icons/512x512.png'
 ]
 
 self.addEventListener('install', (e) => {
@@ -42,13 +45,15 @@ self.addEventListener('activate', (e) => {
 
 self.addEventListener('fetch', (e) => {
   e.respondWith(
-    fetch(e.request)
+    caches.match(e.request)
       .then(
         (response) =>
           response ||
           fetch(e.request).then((response) =>
             caches.open(NAME).then((cache) => {
-              cache.put(e.request, response.clone())
+              if (e.request.method === 'GET') {
+                cache.put(e.request, response.clone())
+              }
               return response
             })
           )
