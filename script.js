@@ -10,7 +10,7 @@ function App() {
 
   const template = `
   <section>
-    <h3>Includes</h3>
+    <h2>Includes</h2>
     <ul>
       ${assets.reduce((html, item) => (html += `<li>${item}</li>`), '')}
     </ul>

@@ -1,7 +1,8 @@
 {
   "name": "HTML Template",
   "short_name": "MHST",
-  "start_url": "./",
+  "scope": "/",
+  "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#eee",
