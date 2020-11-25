@@ -2,6 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
+![logo](https://htmltemplate.site/logo.png)
+
 ## Homepage
 
 [https://htmltemplate.site/](https://htmltemplate.site/)
@@ -21,7 +23,7 @@
 - .gitignore
 - Local Express.js Server Example
 - Error 404 Page Example
-- README.md
+- And More
 
 ## Installation
 
@@ -33,13 +35,13 @@ npm i / yarn
 
 ## Usage
 
-## Development Server
+### Development Server
 
 ```bash
 npm run dev / yarn dev
 ```
 
-## Production Server
+### Production Server
 
 ```bash
 npm start / yarn start

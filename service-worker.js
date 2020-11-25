@@ -1,4 +1,4 @@
-const NAME = 'cache-name-v1'
+const NAME = 'html-template-v1'
 
 const FILES = [
   './index.html',
@@ -20,7 +20,7 @@ const FILES = [
   './icons/128x128.png',
   './icons/150x150.png',
   './icons/256x256.png',
-  './icons/512x512.png'
+  './icons/512x512.png',
 ]
 
 self.addEventListener('install', (e) => {
@@ -45,7 +45,8 @@ self.addEventListener('activate', (e) => {
 
 self.addEventListener('fetch', (e) => {
   e.respondWith(
-    caches.match(e.request)
+    caches
+      .match(e.request)
       .then(
         (response) =>
           response ||

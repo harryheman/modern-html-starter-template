@@ -10,7 +10,7 @@ app.use((req, res) => {
   res.setHeader('X-Frame-Options', 'sameorigin')
   res.setHeader('Content-Security-Policy', "frame-ancestors 'self';")
 
-  // for production
+  // for production only
   // res.setHeader('Content-Encoding', 'br', 'gzip', 'deflate')
 
   res.setHeader('Cache-Control', 'no-cache')
