@@ -10,7 +10,6 @@ const FILES = [
   './css/modules/main.css',
 
   './script.js',
-  './server.js',
   './service-worker.js',
   './js/src/assets.js',
   './js/modules/create-timer.js',
