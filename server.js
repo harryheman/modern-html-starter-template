@@ -6,10 +6,16 @@ app.use(cors())
 app.use(helmet())
 
 app.use((req, res) => {
+  // security
   res.setHeader('X-Frame-Options', 'sameorigin')
   res.setHeader('Content-Security-Policy', "frame-ancestors 'self';")
+
+  // for production
   // res.setHeader('Content-Encoding', 'br', 'gzip', 'deflate')
+
   res.setHeader('Cache-Control', 'no-cache')
+  // res.setHeader('Cache-Control', 'max-age=31536000')
+
   res.sendFile(__dirname + decodeURIComponent(req.url))
 })
 
