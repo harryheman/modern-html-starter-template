@@ -3,8 +3,6 @@ export default `
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-![logo](https://htmltemplate.site/logo.png)
-
 ## Homepage
 
 [https://htmltemplate.site/](https://htmltemplate.site/)

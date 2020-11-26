@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-![logo](https://htmltemplate.site/logo.png)
+![logo](https://htmltemplate.site/src/logo.png)
 
 ## Homepage
 
@@ -50,6 +50,14 @@ npm run dev / yarn dev
 ```bash
 npm start / yarn start
 ```
+
+## Lighthouse
+
+[lighthouse](https://htmltemplate.site/src/lighthouse.png)
+
+## WebPageTest
+
+[webpagetest](https://htmltemplate.site/src/webpagetest.png)
 
 ## Author
 
