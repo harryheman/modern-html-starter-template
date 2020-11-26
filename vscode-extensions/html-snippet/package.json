@@ -1,0 +1,19 @@
+{
+    "name": "htmlsnippet",
+    "displayName": "HTML Snippet",
+    "description": "Modern HTML Starter Template",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./html.code-snippets"
+            }
+        ]
+    }
+}
