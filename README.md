@@ -55,10 +55,6 @@ npm start / yarn start
 
 ![lighthouse](https://htmltemplate.site/src/lighthouse.png)
 
-## WebPageTest
-
-![webpagetest](https://htmltemplate.site/src/webpagetest.png)
-
 ## Author
 
 - [Igor Agapov](https://github.com/harryheman)
