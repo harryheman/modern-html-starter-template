@@ -53,11 +53,11 @@ npm start / yarn start
 
 ## Lighthouse
 
-[lighthouse](https://htmltemplate.site/src/lighthouse.png)
+![lighthouse](https://htmltemplate.site/src/lighthouse.png)
 
 ## WebPageTest
 
-[webpagetest](https://htmltemplate.site/src/webpagetest.png)
+![webpagetest](https://htmltemplate.site/src/webpagetest.png)
 
 ## Author
 
