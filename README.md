@@ -8,6 +8,10 @@
 
 [https://htmltemplate.site/](https://htmltemplate.site/)
 
+## VSCode Marketplace
+
+[https://marketplace.visualstudio.com](https://marketplace.visualstudio.com/items?itemName=igor-agapov.htmltemplate)
+
 ## Includes
 
 - All Meta & Link Tags
