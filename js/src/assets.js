@@ -12,6 +12,5 @@ export const assets = [
   '.gitignore',
   'Local Express.js Server Example',
   'Error 404 Page Example',
-  'README.md',
-  'And More'
+  'And More',
 ]
