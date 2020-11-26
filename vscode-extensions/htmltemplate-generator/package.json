@@ -2,11 +2,16 @@
 	"name": "htmltemplate",
 	"displayName": "HTML Template",
 	"description": "Modern HTML Starter Template",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "igor-agapov",
 	"license": "MIT",
 	"keywords": [
-		"html", "html5", "css", "css3", "javascript", "js"
+		"html",
+		"html5",
+		"css",
+		"css3",
+		"javascript",
+		"js"
 	],
 	"icon": "build/128x128.png",
 	"author": {

@@ -1,0 +1,40 @@
+{
+  "name": "create-modern-template",
+  "description": "Modern HTML Starter Template",
+  "version": "1.0.1",
+  "main": "src/main.js",
+  "bin": "bin/create",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli",
+    "html",
+    "html5",
+    "css",
+    "css3",
+    "javascript",
+    "js",
+    "template",
+    "boilerplate",
+    "snippet"
+  ],
+  "author": "Igor Agapov @harryheman",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harryheman/Modern-HTML-Starter-Template/node-cli/create-modern-template"
+  },
+  "dependencies": {
+    "arg": "^5.0.0",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "esm": "^3.2.25",
+    "execa": "^4.1.0",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0"
+  }
+}

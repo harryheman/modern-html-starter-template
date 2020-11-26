@@ -2,19 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-![logo](https://htmltemplate.site/src/logo.png)
-
 ## Homepage
 
 [https://htmltemplate.site/](https://htmltemplate.site/)
-
-## VSCode Extensions Marketplace
-
-[https://marketplace.visualstudio.com](https://marketplace.visualstudio.com/items?itemName=igor-agapov.htmltemplate)
-
-## NPM Registry CLI
-
-[https://www.npmjs.com](https://www.npmjs.com/package/create-modern-template)
 
 ## Includes
 
@@ -54,10 +44,6 @@ npm run dev / yarn dev
 ```bash
 npm start / yarn start
 ```
-
-## Lighthouse
-
-![lighthouse](https://htmltemplate.site/src/lighthouse.png)
 
 ## Author
 

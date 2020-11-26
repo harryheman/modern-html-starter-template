@@ -8,11 +8,11 @@
 
 [https://htmltemplate.site/](https://htmltemplate.site/)
 
-## VSCode Extensions Marketplace
+## VSCode Marketplace
 
 [https://marketplace.visualstudio.com](https://marketplace.visualstudio.com/items?itemName=igor-agapov.htmltemplate)
 
-## NPM Registry CLI
+## NPM
 
 [https://www.npmjs.com](https://www.npmjs.com/package/create-modern-template)
 
@@ -33,15 +33,18 @@
 - Error 404 Page Example
 - And More
 
-## Installation
-
-```
-git clone https://github.com/harryheman/Modern-HTML-Starter-Template.git
-cd Modern-HTML-Starter-Template
-npm i / yarn
-```
-
 ## Usage
+
+```bash
+npm i create-modern-template -g
+// or
+yarn global add create-modern-template
+
+// create directory, cd to it
+create-modern-template
+// or without install
+npx create-modern-template
+```
 
 ### Development Server
 
@@ -54,10 +57,6 @@ npm run dev / yarn dev
 ```bash
 npm start / yarn start
 ```
-
-## Lighthouse
-
-![lighthouse](https://htmltemplate.site/src/lighthouse.png)
 
 ## Author
 
