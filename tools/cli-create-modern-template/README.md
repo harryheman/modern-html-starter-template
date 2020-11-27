@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-![logo](https://htmltemplate.site/src/logo.png)
+![logo](https://htmltemplate.site/assets/logo.png)
 
 ## Homepage
 
@@ -11,6 +11,10 @@
 ## VSCode Marketplace
 
 [https://marketplace.visualstudio.com](https://marketplace.visualstudio.com/items?itemName=igor-agapov.htmltemplate)
+
+## NPM
+
+[https://www.npmjs.com](https://www.npmjs.com/package/create-modern-template)
 
 ## Includes
 
@@ -32,12 +36,14 @@
 ## Usage
 
 ```bash
-// cd to the target directory
-View -> Command Palette
+npm i create-modern-template -g
 // or
-Ctrl/Cmd+Shift+P
+yarn global add create-modern-template
 
-Create Template
+// create directory, cd to it
+create-modern-template
+// or without install
+npx create-modern-template
 ```
 
 ### Development Server

@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-![logo](https://htmltemplate.site/src/logo.png)
+![logo](https://htmltemplate.site/assets/logo.png)
 
 ## Homepage
 
