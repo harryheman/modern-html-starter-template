@@ -8,9 +8,13 @@
 
 [https://htmltemplate.site/](https://htmltemplate.site/)
 
-## VSCode Marketplace
+## VSCode Extension
 
 [https://marketplace.visualstudio.com](https://marketplace.visualstudio.com/items?itemName=igor-agapov.htmltemplate)
+
+## CLI
+
+[https://www.npmjs.com](https://www.npmjs.com/package/create-modern-template)
 
 ## Includes
 

@@ -8,11 +8,11 @@
 
 [https://htmltemplate.site/](https://htmltemplate.site/)
 
-## VSCode Extensions Marketplace
+## VSCode Extension
 
 [https://marketplace.visualstudio.com](https://marketplace.visualstudio.com/items?itemName=igor-agapov.htmltemplate)
 
-## NPM Registry CLI
+## CLI
 
 [https://www.npmjs.com](https://www.npmjs.com/package/create-modern-template)
 
@@ -57,7 +57,7 @@ npm start / yarn start
 
 ## Lighthouse
 
-![lighthouse](https://htmltemplate.site/src/lighthouse.png)
+![lighthouse](https://htmltemplate.site/assets/lighthouse.png)
 
 ## Author
 
