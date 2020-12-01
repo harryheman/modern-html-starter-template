@@ -1,5 +1,5 @@
 [build]
-  command = "npm i && npm start"
+  command = "yarn && yarn start"
   functions = "functions"
 [[headers]]
   for = "/*"
