@@ -1,4 +1,5 @@
 const app = require('express')()
+const serverless = require('serverless-http')
 const cors = require('cors')
 const helmet = require('helmet')
 
@@ -14,4 +15,8 @@ app.use((req, res) => {
   res.sendFile(__dirname + decodeURIComponent(req.url))
 })
 
+app.use('/.netlify/functions/server', router)
+
 app.listen(process.env.PORT || 1234)
+
+module.exports.handler = serverless(app)
