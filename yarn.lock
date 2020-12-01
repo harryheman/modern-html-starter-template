@@ -40,11 +40,6 @@
   resolved "https://registry.yarnpkg.com/@tokenizer/token/-/token-0.1.1.tgz#f0d92c12f87079ddfd1b29f614758b9696bc29e3"
   integrity sha512-XO6INPbZCxdprl+9qa/AAbFFOMzzwqYxpjPgLICrMD6C2FCw6qfJOPcBk6JqqPLSaZ/Qx87qn4rpPmPMwaAK6w==
 
-"@types/aws-lambda@^8.10.56":
-  version "8.10.64"
-  resolved "https://registry.yarnpkg.com/@types/aws-lambda/-/aws-lambda-8.10.64.tgz#4bdcb725aef96bef0cb1decf19c7efff1df22fe7"
-  integrity sha512-LRKk2UQCSi7BsO5TlfSI8cTNpOGz+MH6+RXEWtuZmxJficQgxwEYJDiKVirzgyiHce0L0F4CqCVvKTwblAeOUw==
-
 "@types/debug@^4.1.5":
   version "4.1.5"
   resolved "https://registry.yarnpkg.com/@types/debug/-/debug-4.1.5.tgz#b14efa8852b7768d898906613c23f688713e02cd"
@@ -1346,13 +1341,6 @@ serve-static@1.14.1:
     escape-html "~1.0.3"
     parseurl "~1.3.3"
     send "0.17.1"
-
-serverless-http@^2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/serverless-http/-/serverless-http-2.6.0.tgz#8c4633634e00b9d75bf757558b5630fbe6527a8b"
-  integrity sha512-2mBz+MO+JXgC8PDHIZi/Ytsa65v78fc+7cFeXqcYM5laGQS/GEX9Cq+72WOaIGqPJia5JLADqjhdTBI5/iLcHQ==
-  optionalDependencies:
-    "@types/aws-lambda" "^8.10.56"
 
 setprototypeof@1.1.1:
   version "1.1.1"

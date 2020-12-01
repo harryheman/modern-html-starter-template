@@ -1,5 +1,4 @@
 const app = require('express')()
-const serverless = require('serverless-http')
 const cors = require('cors')
 const helmet = require('helmet')
 
@@ -16,5 +15,3 @@ app.use((req, res) => {
 })
 
 app.listen(process.env.PORT || 1234)
-
-module.exports.handler = serverless(app)
