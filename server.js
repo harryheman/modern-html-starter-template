@@ -8,7 +8,7 @@ app.use(helmet())
 
 app.use((req, res) => {
   res.setHeader('X-Frame-Options', 'SAMEORIGIN')
-  res.setHeader('Content-Security-Policy', "frame-ancestors 'self';")
+  res.setHeader('Content-Security-Policy', "frame-ancestors 'self'")
 
   res.setHeader('Cache-Control', 'max-age=31536000')
 
