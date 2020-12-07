@@ -7,3 +7,7 @@ footer a {
   text-decoration: none;
   border-bottom: 1px dashed;
 }
+
+footer p {
+  margin: 1rem 0;
+}
