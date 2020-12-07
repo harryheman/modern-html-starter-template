@@ -29,6 +29,7 @@ import robotsTXT from './components/robots.txt.js'
 import sitemapXML from './components/sitemap.xml.js'
 import snippetJSON from './components/snippet.json.js'
 import yarnLock from './components/yarn.lock.js'
+import netlifyToml from './components/netlify.toml.js'
 
 import icon64 from './components/icons/icon64.js'
 import icon128 from './components/icons/icon128.js'
@@ -69,11 +70,12 @@ export function activate(context: vscode.ExtensionContext) {
         sitemapXML,
         snippetJSON,
         yarnLock,
+        netlifyToml,
         icon64,
         icon128,
         icon150,
         icon256,
-        icon512,
+        icon512
       ]
 
       const fileNames: string[] = [
@@ -100,11 +102,12 @@ export function activate(context: vscode.ExtensionContext) {
         'sitemap.xml',
         'vscode-html-snippet.json',
         'yarn.lock',
+        'netlify.toml',
         'icons/64x64.png',
         'icons/128x128.png',
         'icons/150x150.png',
         'icons/256x256.png',
-        'icons/512x512.png',
+        'icons/512x512.png'
       ]
 
       ;(async () => {

@@ -1,5 +1,5 @@
 export default `
-const NAME = 'cache-name-v1'
+const NAME = 'mycache-v1'
 
 const FILES = [
   './index.html',

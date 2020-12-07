@@ -1,153 +1,181 @@
 <!DOCTYPE html>
-<html
-  lang="en"
-  dir="ltr"
-  itemscope
-  itemtype="https://schema.org/WebPage"
-  prefix="og: http://ogp.me/ns#"
->
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>HTML Template</title>
+<html lang="en" dir="ltr" itemscope itemtype="https://schema.org/WebPage" prefix="og: http://ogp.me/ns#">
 
-    <meta name="referrer" content="origin" />
-    <link rel="canonical" href="https://htmltemplate.site/" />
-    <link rel="icon" type="image/png" href="./icons/64x64.png" />
-    <link rel="manifest" href="./manifest.json" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HTML Template</title>
 
-    <!-- Security -->
-    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
-    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+  <meta name="referrer" content="origin" />
+  <link rel="canonical" href="https://mhst.netlify.app/" />
+  <link rel="icon" type="image/png" href="./icons/64x64.png" />
+  <link rel="manifest" href="./manifest.json" />
 
-    <meta name="author" content="Igor Agapov" />
-    <meta name="description" content="Modern HTML Starter Template" />
-    <meta
-      name="keywords"
-      content="modern, useful, html, html5, css, css3, javascript, js, template, boilerplate"
-    />
+  <!-- Security -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
 
-    <meta itemprop="name" content="HTML Template" />
-    <meta itemprop="description" content="Modern HTML Starter Template" />
-    <meta itemprop="image" content="./icons/128x128.png" />
+  <meta name="author" content="Igor Agapov" />
+  <meta name="description" content="Modern HTML Starter Template" />
+  <meta name="keywords" content="modern, useful, html, html5, css, css3, javascript, js, template, boilerplate" />
 
-    <!-- Microsoft -->
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="application-name" content="HTML Template" />
-    <meta name="msapplication-tooltip" content="Modern HTML Starter Template" />
-    <meta name="msapplication-starturl" content="/" />
-    <meta name="msapplication-config" content="browserconfig.xml" />
+  <meta itemprop="name" content="HTML Template" />
+  <meta itemprop="description" content="Modern HTML Starter Template" />
+  <meta itemprop="image" content="./icons/128x128.png" />
 
-    <!-- Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://htmltemplate.site/" />
-    <meta property="og:title" content="HTML Template" />
-    <meta property="og:image" content="./icons/256x256.png" />
-    <meta property="og:site_name" content="HTML Template" />
-    <meta property="og:description" content="Modern HTML Starter Template" />
-    <meta property="og:locale" content="en_US" />
+  <!-- Microsoft -->
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="application-name" content="HTML Template" />
+  <meta name="msapplication-tooltip" content="Modern HTML Starter Template" />
+  <meta name="msapplication-starturl" content="/" />
+  <meta name="msapplication-config" content="browserconfig.xml" />
 
-    <!-- Twitter -->
-    <meta name="twitter:title" content="HTML Template" />
-    <meta name="twitter:description" content="Modern HTML Starter Template" />
-    <meta name="twitter:url" content="https://htmltemplate.site/" />
-    <meta name="twitter:image" content="./icons/128x128.png" />
+  <!-- Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mhst.netlify.app/" />
+  <meta property="og:title" content="HTML Template" />
+  <meta property="og:image" content="./icons/256x256.png" />
+  <meta property="og:site_name" content="HTML Template" />
+  <meta property="og:description" content="Modern HTML Starter Template" />
+  <meta property="og:locale" content="en_US" />
 
-    <!-- IOS -->
-    <meta name="apple-mobile-web-app-title" content="HTML Template" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="#222" />
-    <link rel="apple-touch-icon" href="./icons/256x256.png" />
+  <!-- Twitter -->
+  <meta name="twitter:title" content="HTML Template" />
+  <meta name="twitter:description" content="Modern HTML Starter Template" />
+  <meta name="twitter:url" content="https://mhst.netlify.app/" />
+  <meta name="twitter:image" content="./icons/128x128.png" />
 
-    <!-- Android -->
-    <meta name="theme-color" content="#eee" />
-    <meta name="mobile-web-app-capable" content="yes" />
+  <!-- IOS -->
+  <meta name="apple-mobile-web-app-title" content="HTML Template" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="#222" />
+  <link rel="apple-touch-icon" href="./icons/256x256.png" />
 
-    <!-- Google Verification Tag -->
+  <!-- Android -->
+  <meta name="theme-color" content="#eee" />
+  <meta name="mobile-web-app-capable" content="yes" />
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- Google Verification Tag -->
+  <meta name="google-site-verification" content="O-W6Fmw34nQnmRo23kk496ys78YjLQVNC0bHqRUtI5A" />
 
-    <!-- Yandex Verification Tag -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-R2QPPP7JDN"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || []
+    function gtag() {
+      dataLayer.push(arguments)
+    }
+    gtag('js', new Date())
 
-    <!-- Yandex.Metrika counter -->
+    gtag('config', 'G-R2QPPP7JDN')
+  </script>
+  <script data-ad-client="ca-pub-1476628293204747" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-    <!-- Mail Verification Tag -->
+  <!-- Yandex Verification Tag -->
+  <meta name="yandex-verification" content="a44b24842a157e95" />
 
-    <!-- JSON-LD -->
-    <script type="application/ld+json">
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+    ;(function (m, e, t, r, i, k, a) {
+      m[i] =
+        m[i] ||
+        function () {
+          ;(m[i].a = m[i].a || []).push(arguments)
+        }
+      m[i].l = 1 * new Date()
+      ;(k = e.createElement(t)),
+        (a = e.getElementsByTagName(t)[0]),
+        (k.async = 1),
+        (k.src = r),
+        a.parentNode.insertBefore(k, a)
+    })(
+      window,
+      document,
+      'script',
+      'https://mc.yandex.ru/metrika/tag.js',
+      'ym'
+    )
+
+    ym(69418261, 'init', {
+      clickmap: true,
+      trackLinks: true,
+      accurateTrackBounce: true,
+    })
+  </script>
+  <noscript>
+    <div>
+      <img src="https://mc.yandex.ru/watch/69418261" style="position: absolute; left: -9999px" alt="" />
+    </div>
+  </noscript>
+
+  <!-- Mail Verification Tag -->
+  <meta name="wmail-verification" content="af1058072b1dccd45b9bbfcf5c47d2ef" />
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
       {
         "@context": "http://schema.org/",
         "@type": "WebPage",
         "name": "HTML Template",
-        "image": ["https://htmltemplate.site/icons/512x512.png"],
+        "image": ["https://mhst.netlify.app/icons/512x512.png"],
         "author": {
           "@type": "Person",
           "name": "Igor Agapov"
         },
-        "datePublished": "2020-11-15",
+        "datePublished": "2020-11-20",
         "description": "Modern HTML Starter Template",
         "keywords": "modern, useful, html, html5, css, css3, javascript, js, template, boilerplate"
       }
     </script>
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" as="style" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
 
-    <style>
-      /* Critical CSS */
-    </style>
+  <style>
+    /* Critical CSS */
+  </style>
 
-    <link rel="preload" href="./css/style.css" as="style">
-    <link rel="stylesheet" href="./css/style.css" />
+  <link rel="preload" href="./css/style.css" as="style" />
+  <link rel="stylesheet" href="./css/style.css" />
 
-    <link rel="preload" href="./script.js" as="script">
-  </head>
+  <link rel="preload" href="./script.js" as="script" />
+</head>
 
-  <body>
-    <!-- HTML5 -->
-    <header>
-      <h1>
-        Modern HTML <br />
-        Starter Template
-      </h1>
-      <nav>
-        <a
-          href="https://htmltemplate.site"
-          target="_blank"
-          rel="noopener"
-        >
-          WebSite
-        </a>
-        <a
-          href="https://github.com/harryheman/Modern-HTML-Starter-Template"
-          target="_blank"
-          rel="noopener"
-        >
-          GitHub
-        </a>
-      </nav>
-      <time></time>
-    </header>
+<body>
+  <!-- HTML5 -->
+  <header>
+    <h1>
+      Modern HTML <br />
+      Starter Template
+    </h1>
+    <nav>
+      <a href="https://mhst.netlify.app" target="_blank" rel="noopener">
+        WebSite
+      </a>
+      <a href="https://github.com/harryheman/Modern-HTML-Starter-Template" target="_blank" rel="noopener">
+        GitHub
+      </a>
+    </nav>
+    <time></time>
+  </header>
 
-    <main></main>
+  <main></main>
 
-    <footer>
-      <p>
-        &copy; 2020.
-        <a
-          href="https://github.com/harryheman"
-          target="_blank"
-          rel="noopener"
-        >
-          Igor Agapov
-        </a>
-      </p>
-    </footer>
+  <footer>
+    <p>
+      &copy; 2020.
+      <a href="https://github.com/harryheman" target="_blank" rel="noopener">
+        Igor Agapov
+      </a>
+    </p>
+  </footer>
 
-    <script src="./script.js" type="module"></script>
-  </body>
+  <script src="./script.js" type="module"></script>
+</body>
+
 </html>

@@ -2,11 +2,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-![logo](https://htmltemplate.site/assets/logo.png)
+![logo](https://mhst.netlify.app/assets/logo.png)
 
 ## Homepage
 
-[https://htmltemplate.site/](https://htmltemplate.site/)
+[https://mhst.netlify.app/](https://mhst.netlify.app/)
 
 ## VSCode Extension
 

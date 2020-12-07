@@ -59,6 +59,10 @@ npm start / yarn start
 
 ![lighthouse](https://mhst.netlify.app/assets/lighthouse.png)
 
+## Webpagetest
+
+![webpagetest](https://mhst.netlify.app/assets/webpagetest.png)
+
 ## Author
 
 - [Igor Agapov](https://github.com/harryheman)

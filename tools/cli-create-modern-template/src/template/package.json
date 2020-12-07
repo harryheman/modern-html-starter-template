@@ -1,6 +1,6 @@
 {
-  "name": "html-template",
-  "version": "1.0.0",
+  "name": "htmltemplate",
+  "version": "2.0.0",
   "main": "server.js",
   "license": "MIT",
   "private": true,
@@ -11,7 +11,8 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "helmet": "^4.2.0"
+    "helmet": "^4.2.0",
+    "prerender-node": "^3.2.5"
   },
   "devDependencies": {
     "nodemon": "^2.0.6",

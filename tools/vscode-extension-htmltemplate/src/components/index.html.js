@@ -13,7 +13,7 @@ export default `
     <title>HTML Template</title>
 
     <meta name="referrer" content="origin" />
-    <link rel="canonical" href="https://htmltemplate.site/" />
+    <link rel="canonical" href="https://mhst.netlify.app/" />
     <link rel="icon" type="image/png" href="./icons/64x64.png" />
     <link rel="manifest" href="./manifest.json" />
 
@@ -41,7 +41,7 @@ export default `
 
     <!-- Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://htmltemplate.site/" />
+    <meta property="og:url" content="https://mhst.netlify.app/" />
     <meta property="og:title" content="HTML Template" />
     <meta property="og:image" content="./icons/256x256.png" />
     <meta property="og:site_name" content="HTML Template" />
@@ -51,7 +51,7 @@ export default `
     <!-- Twitter -->
     <meta name="twitter:title" content="HTML Template" />
     <meta name="twitter:description" content="Modern HTML Starter Template" />
-    <meta name="twitter:url" content="https://htmltemplate.site/" />
+    <meta name="twitter:url" content="https://mhst.netlify.app/" />
     <meta name="twitter:image" content="./icons/128x128.png" />
 
     <!-- IOS -->
@@ -80,7 +80,7 @@ export default `
         "@context": "http://schema.org/",
         "@type": "WebPage",
         "name": "HTML Template",
-        "image": ["https://htmltemplate.site/icons/512x512.png"],
+        "image": ["https://mhst.netlify.app/icons/512x512.png"],
         "author": {
           "@type": "Person",
           "name": "Igor Agapov"
@@ -93,19 +93,17 @@ export default `
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" as="style" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
 
     <style>
       /* Critical CSS */
     </style>
 
-    <link rel="preload" href="./css/style.css" as="style">
+    <link rel="preload" href="./css/style.css" as="style" />
     <link rel="stylesheet" href="./css/style.css" />
 
-    <link rel="preload" href="./script.js" as="script">
+    <link rel="preload" href="./script.js" as="script" />
   </head>
 
   <body>
@@ -117,7 +115,7 @@ export default `
       </h1>
       <nav>
         <a
-          href="https://htmltemplate.site"
+          href="https://mhst.netlify.app"
           target="_blank"
           rel="noopener"
         >
