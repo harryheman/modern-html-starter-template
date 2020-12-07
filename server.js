@@ -1,9 +1,11 @@
 const app = require('express')()
 const cors = require('cors')
 const helmet = require('helmet')
+const prerender = require('prerender-node')
 
 app.use(cors())
 app.use(helmet())
+app.use(prerender)
 
 app.use((req, res) => {
   res.setHeader('X-Frame-Options', 'SAMEORIGIN')
