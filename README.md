@@ -57,7 +57,7 @@ npm start / yarn start
 
 ## Lighthouse
 
-![lighthouse](https://mhst.netlify.app/assets/lighthouse.png)
+![lighthouse](https://mhst.netlify.app/assets/light-house.png)
 
 ## Webpagetest
 
