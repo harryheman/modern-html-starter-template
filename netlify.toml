@@ -17,4 +17,4 @@
     </public/script.js>; rel=preload; as=script, \
     </public/js/modules/create-timer.js>; rel=preload; as=script, \
     </public/js/modules/loader.js>; rel=preload; as=script, \
-    </public/js/src/assets.js>; rel=preload; as=script'''
+    </public/js/assets/assets.js>; rel=preload; as=script'''
