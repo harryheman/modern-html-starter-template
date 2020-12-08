@@ -60,6 +60,6 @@ self.addEventListener('fetch', (e) => {
             })
           )
       )
-      .catch(() => caches.match('./404.html'))
+      .catch(() => caches.match('./public/404.html'))
   )
 })
