@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-![logo](https://mhst.netlify.app/assets/logo.png)
+![logo](https://mhst.netlify.app/img/logo.png)
 
 ## Homepage
 
@@ -57,11 +57,11 @@ npm start / yarn start
 
 ## Lighthouse
 
-![lighthouse](https://mhst.netlify.app/assets/light-house.png)
+![lighthouse](https://mhst.netlify.app/img/light-house.png)
 
 ## Webpagetest
 
-![webpagetest](https://mhst.netlify.app/assets/webpagetest.png)
+![webpagetest](https://mhst.netlify.app/img/webpagetest.png)
 
 ## Author
 

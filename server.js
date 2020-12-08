@@ -8,8 +8,19 @@ app.use(helmet())
 app.use(prerender)
 
 app.use((req, res) => {
-  res.setHeader('X-Frame-Options', 'SAMEORIGIN')
+  // Security
+  // https://infosec.mozilla.org/guidelines/web_security
+  // https://owasp.org/www-project-secure-headers/
+  // https://github.com/w3c/webappsec-permissions-policy/blob/master/permissions-policy-explainer.md
+  res.setHeader('X-Frame-Options', 'sameorigin')
+  res.setHeader('X-Content-Type-Options', 'nosniff')
   res.setHeader('Content-Security-Policy', "frame-ancestors 'self'")
+  res.setHeader('X-XSS-Protection', '1; mode=block')
+  res.setHeader('Referrer-Policy', 'strict-origin')
+  res.setHeader(
+    'Permissions-Policy',
+    'camera=(), geolocation=(), microphone=()'
+  )
 
   res.setHeader('Cache-Control', 'max-age=31536000')
 
