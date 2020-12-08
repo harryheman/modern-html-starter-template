@@ -99,7 +99,7 @@ npm run build / yarn build
 
 ### Lighthouse
 
-![lighthouse](https://mhst.netlify.app/img/lighthouse.png)
+![lighthouse](https://mhst.netlify.app/img/light-house.png)
 
 ### WebPageTest
 
