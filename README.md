@@ -4,6 +4,10 @@
 
 ![logo](https://mhst.netlify.app/img/logo.png)
 
+## Intro
+
+Everyone can make their own modern, fast and completely secure progressive web application
+
 ## Updates
 
 ### 2020-12-08
