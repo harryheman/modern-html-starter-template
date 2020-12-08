@@ -57,11 +57,15 @@ npm start / yarn start
 
 ## Lighthouse
 
-![lighthouse](https://mhst.netlify.app/img/light-house.png)
+![lighthouse](https://mhst.netlify.app/img/lighthouse.png)
 
-## Webpagetest
+## WebPageTest
 
 ![webpagetest](https://mhst.netlify.app/img/webpagetest.png)
+
+## SecurityHeaders
+
+![securityheaders](https://mhst.netlify.app/img/seched.png)
 
 ## Author
 

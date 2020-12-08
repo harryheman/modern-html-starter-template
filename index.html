@@ -10,13 +10,6 @@
   <link rel="icon" type="image/png" href="./public/icons/64x64.png" />
   <link rel="manifest" href="./manifest.json" />
 
-  <!-- Security -->
-  <!-- https://infosec.mozilla.org/guidelines/web_security -->
-  <!-- https://owasp.org/www-project-secure-headers/ -->
-  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
-  <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
-  <meta name="referrer" content="strict-origin" />
-
   <!-- General -->
   <!-- https://www.w3.org/TR/html52/document-metadata.html#the-meta-element -->
   <!-- https://html.spec.whatwg.org/multipage/semantics.html#the-meta-element -->
@@ -24,6 +17,7 @@
   <meta name="author" content="Igor Agapov" />
   <meta name="description" content="Modern HTML Starter Template" />
   <meta name="keywords" content="modern, useful, html, html5, css, css3, javascript, js, template, boilerplate" />
+  <meta name="referrer" content="strict-origin" />
 
   <meta itemprop="name" content="HTML Template" />
   <meta itemprop="description" content="Modern HTML Starter Template" />
@@ -31,8 +25,9 @@
 
   <!-- Microsoft -->
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <meta name="msapplication-tooltip" content="Modern HTML Starter Template" />
   <meta name="msapplication-starturl" content="/" />
+  <meta name="msapplication-tooltip" content="Modern HTML Starter Template" />
+  <meta name="msapplication-TileColor" content=" #222" />
   <meta name="msapplication-config" content="browserconfig.xml" />
 
   <!-- Facebook -->
@@ -62,7 +57,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="#222" />
   <link rel="apple-touch-icon" href="./public/icons/256x256.png" />
 
-  <!-- Android? -->
+  <!-- Android -->
   <meta name="theme-color" content="#eee" />
   <meta name="color-scheme" content="light">
   <meta name="mobile-web-app-capable" content="yes" />
@@ -84,13 +79,12 @@
 
     gtag('config', 'G-R2QPPP7JDN')
   </script>
-  <script data-ad-client="ca-pub-1476628293204747" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
   <!-- Yandex Verification Tag -->
   <meta name="yandex-verification" content="e8291f8d5dee9bd8" />
 
   <!-- Yandex.Metrika counter -->
-  <script type="text/javascript">
+  <script>
     ;(function (m, e, t, r, i, k, a) {
       m[i] =
         m[i] ||
@@ -129,38 +123,38 @@
   <!-- JSON-LD -->
   <!-- https://schema.org/WebPage -->
   <script type="application/ld+json">
-      {
-        "@context": "http://schema.org/",
-        "@type": "WebPage",
-        "name": "HTML Template",
-        "description": "Modern HTML Starter Template",
-        "keywords": "modern, useful, html, html5, css, css3, javascript, js, template, boilerplate",
-        "image": "https://mhst.netlify.app/public/icons/512x512.png",
-        "author": {
-          "@type": "Person",
-          "name": "Igor Agapov"
-        },
-        "publisher": {
-          "@type": "Person",
-          "name": "Igor Agapov"
-        },
-        "datePublished": "2020-12-08"
-      }
-    </script>
+    {
+      "@context": "http://schema.org/",
+      "@type": "WebPage",
+      "name": "HTML Template",
+      "description": "Modern HTML Starter Template",
+      "keywords": "modern, useful, html, html5, css, css3, javascript, js, template, boilerplate",
+      "image": "https://mhst.netlify.app/public/icons/512x512.png",
+      "author": {
+        "@type": "Person",
+        "name": "Igor Agapov"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Igor Agapov"
+      },
+      "datePublished": "2020-12-08"
+    }
+  </script>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" as="style" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
 
-  <style>
-    /* Critical CSS */
-  </style>
-
   <link rel="preload" href="./public/css/style.css" as="style" />
   <link rel="stylesheet" href="./public/css/style.css" />
 
   <link rel="preload" href="./public/js/script.js" as="script" />
+
+  <style>
+    /* Critical CSS */
+  </style>
 </head>
 
 <body>
