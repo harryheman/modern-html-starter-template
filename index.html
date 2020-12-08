@@ -7,6 +7,7 @@
   <title>HTML Template</title>
 
   <link rel="canonical" href="https://mhst.netlify.app/" />
+  <link rel="amphtml" href="https://mhst.netlify.app/amp/index.html">
   <link rel="icon" type="image/png" href="./public/icons/64x64.png" />
   <link rel="manifest" href="./manifest.json" />
 
@@ -124,19 +125,25 @@
   <!-- https://schema.org/WebPage -->
   <script type="application/ld+json">
     {
-      "@context": "http://schema.org/",
-      "@type": "WebPage",
+      "@context": "http://schema.org",
+      "@type": "Webpage",
+      "url": "https://mhst.netlify.app",
       "name": "HTML Template",
+      "headline": "HTML Template",
       "description": "Modern HTML Starter Template",
-      "keywords": "modern, useful, html, html5, css, css3, javascript, js, template, boilerplate",
-      "image": "https://mhst.netlify.app/public/icons/512x512.png",
-      "author": {
-        "@type": "Person",
-        "name": "Igor Agapov"
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://mhst.netlify.app"
       },
       "publisher": {
         "@type": "Person",
-        "name": "Igor Agapov"
+        "name": "Igor Agapov",
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://mhst.netlify.app/img/logo.png",
+        "width": 1200,
+        "height": 680
       },
       "datePublished": "2020-12-08"
     }

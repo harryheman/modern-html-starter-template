@@ -1,4 +1,4 @@
-const NAME = 'htmltemplate-v2'
+const NAME = 'htmltemplate-v2.0.1'
 
 const FILES = [
   './index.html',

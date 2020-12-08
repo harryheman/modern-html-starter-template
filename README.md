@@ -4,6 +4,25 @@
 
 ![logo](https://mhst.netlify.app/img/logo.png)
 
+## Updates
+
+### 2020-12-08
+
+- Fix service worker: app now can work offline
+- Improve server: fix security headers (see results of the tests below)
+- Create netlify.toml: server settings for Netlify
+- Improve index.html: fix tags and links (add links to the official resources and guides)
+- Fix structured data (json-ld)
+- Create AMP-project (see result of the test below)
+- Create Webpack-project (see usage guide below)
+- And more
+
+## Todo
+
+- Fix VSCode snippet
+- Fix VSCode extension
+- Fix CLI
+
 ## Homepage
 
 [https://mhst.netlify.app/](https://mhst.netlify.app/)
@@ -43,29 +62,56 @@ npm i / yarn
 
 ## Usage
 
-### Development Server
+### Main
+
+#### Development Server
 
 ```bash
 npm run dev / yarn dev
 ```
 
-### Production Server
+#### Production Server
 
 ```bash
 npm start / yarn start
 ```
 
-## Lighthouse
+### Webpack
+
+```bash
+cd webpack
+npm i / yarn
+```
+
+#### Development Server
+
+```bash
+npm run dev / yarn dev
+```
+
+#### Production Build
+
+```bash
+npm run build / yarn build
+```
+
+## Tests
+
+### Lighthouse
 
 ![lighthouse](https://mhst.netlify.app/img/lighthouse.png)
 
-## WebPageTest
+### WebPageTest
 
 ![webpagetest](https://mhst.netlify.app/img/webpagetest.png)
 
-## SecurityHeaders
+### SecurityHeaders
 
-![securityheaders](https://mhst.netlify.app/img/seched.png)
+![securityheaders](https://mhst.netlify.app/img/securityheaders.png)
+
+### AMP
+
+![amp](https://mhst.netlify.app/img/amp.png)
 
 ## Author
 
@@ -73,4 +119,8 @@ npm start / yarn start
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [MIT License](LICENSE)
+
+## Support
+
+You can support project on [OpenCollective](https://opencollective.com/mhst)
