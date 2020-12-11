@@ -10,10 +10,10 @@ const parseArgumentsIntoOptions = (rawArgs) => {
       '--install': Boolean,
       '-y': '--yes',
       '-g': '--git',
-      '-i': '--install',
+      '-i': '--install'
     },
     {
-      argv: rawArgs.slice(2),
+      argv: rawArgs.slice(2)
     }
   )
 
@@ -21,7 +21,7 @@ const parseArgumentsIntoOptions = (rawArgs) => {
     template: 'template',
     skipPrompts: args['--yes'] || false,
     git: args['--git'] || false,
-    install: args['--install'] || false,
+    install: args['--install'] || false
   }
 }
 
@@ -30,7 +30,7 @@ const promptForMissingOptions = async (options) => {
     return {
       ...options,
       git: false,
-      install: false,
+      install: false
     }
   }
 
@@ -41,7 +41,7 @@ const promptForMissingOptions = async (options) => {
       type: 'confirm',
       name: 'git',
       message: 'Would you like to initialize git?',
-      default: false,
+      default: false
     })
   }
 
@@ -50,7 +50,7 @@ const promptForMissingOptions = async (options) => {
       type: 'confirm',
       name: 'install',
       message: 'Would you like to install dependencies?',
-      default: false,
+      default: false
     })
   }
 
@@ -59,12 +59,14 @@ const promptForMissingOptions = async (options) => {
   return {
     ...options,
     git: options.git || answers.git,
-    install: options.install || answers.install,
+    install: options.install || answers.install
   }
 }
 
 export async function cli(args) {
   let options = parseArgumentsIntoOptions(args)
+
   options = await promptForMissingOptions(options)
+
   await createProject(options)
 }

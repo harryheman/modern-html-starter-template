@@ -20,9 +20,7 @@ console.log(
 
 const copyFiles = async (options) => {
   try {
-    await copy(options.templateDirectory, options.targetDirectory, {
-      clobber: false,
-    })
+    await copy(options.templateDirectory, options.targetDirectory)
   } catch {
     console.error('%s Failed to copy files', chalk.red.bold('ERROR'))
     process.exit(1)
@@ -32,7 +30,7 @@ const copyFiles = async (options) => {
 const initGit = async (options) => {
   try {
     await execa('git', ['init'], {
-      cwd: options.targetDirectory,
+      cwd: options.targetDirectory
     })
   } catch {
     console.error('%s Failed to initialize git', chalk.red.bold('ERROR'))
@@ -50,7 +48,7 @@ export const createProject = async (options) => {
   options.templateDirectory = templateDir
 
   try {
-    await access(templateDir, fs.constants.R_OK)
+    await access(options.templateDirectory, fs.constants.R_OK)
   } catch {
     console.error('%s Invalid template name', chalk.red.bold('ERROR'))
     process.exit(1)
@@ -60,24 +58,24 @@ export const createProject = async (options) => {
     [
       {
         title: 'Copy project files',
-        task: () => copyFiles(options),
+        task: () => copyFiles(options)
       },
       {
         title: 'Initialize git',
         task: () => initGit(options),
-        enabled: () => options.git,
+        enabled: () => options.git
       },
       {
         title: 'Install dependencies',
         task: () =>
           projectInstall({
-            cwd: options.targetDirectory,
+            cwd: options.targetDirectory
           }),
-        enabled: () => options.install,
-      },
+        enabled: () => options.install
+      }
     ],
     {
-      exitOnError: false,
+      exitOnError: false
     }
   )
 
