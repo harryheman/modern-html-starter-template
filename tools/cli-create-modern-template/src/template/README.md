@@ -2,19 +2,15 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-![logo](https://mhst.netlify.app/assets/logo.png)
+![logo](https://mhst.netlify.app/img/logo.png)
+
+## Intro
+
+Everyone can make their own modern, fast and completely secure progressive web application
 
 ## Homepage
 
 [https://mhst.netlify.app/](https://mhst.netlify.app/)
-
-## VSCode Extension
-
-[https://marketplace.visualstudio.com](https://marketplace.visualstudio.com/items?itemName=igor-agapov.htmltemplate)
-
-## CLI
-
-[https://www.npmjs.com](https://www.npmjs.com/package/create-modern-template)
 
 ## Includes
 
@@ -55,18 +51,10 @@ npm run dev / yarn dev
 npm start / yarn start
 ```
 
-## Lighthouse
-
-![lighthouse](https://mhst.netlify.app/assets/lighthouse.png)
-
-## Webpagetest
-
-![webpagetest](https://mhst.netlify.app/assets/webpagetest.png)
-
 ## Author
 
 - [Igor Agapov](https://github.com/harryheman)
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [MIT License](LICENSE)

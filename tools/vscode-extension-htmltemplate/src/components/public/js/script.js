@@ -1,8 +1,8 @@
 export default `
 // Modules
-import Loader from './js/modules/loader.js'
-import { createTimer } from './js/modules/create-timer.js'
-import { assets } from './js/src/assets.js'
+import Loader from './modules/loader.js'
+import { createTimer } from './modules/create-timer.js'
+import { assets } from './assets/assets.js'
 
 function App() {
   Loader.show()
@@ -11,7 +11,7 @@ function App() {
 
   const template = \`
   <section>
-    <h3>Includes</h3>
+    <h2>Includes</h2>
     <ul>
       \${assets.reduce((html, item) => (html += \`<li>\${item}</li>\`), '')}
     </ul>
@@ -28,8 +28,4 @@ function App() {
 }
 
 App()
-
-navigator.serviceWorker
-  .register('./service-worker.js')
-  .catch((err) => console.error(err))
 `

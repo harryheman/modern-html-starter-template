@@ -3,19 +3,15 @@ export default `
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-![logo](https://htmltemplate.site/assets/logo.png)
+![logo](https://mhst.netlify.app/img/logo.png)
+
+## Intro
+
+Everyone can make their own modern, fast and completely secure progressive web application
 
 ## Homepage
 
-[https://htmltemplate.site/](https://htmltemplate.site/)
-
-## VSCode Extension
-
-[https://marketplace.visualstudio.com](https://marketplace.visualstudio.com/items?itemName=igor-agapov.htmltemplate)
-
-## CLI
-
-[https://www.npmjs.com](https://www.npmjs.com/package/create-modern-template)
+[https://mhst.netlify.app/](https://mhst.netlify.app/)
 
 ## Includes
 
@@ -34,16 +30,15 @@ export default `
 - Error 404 Page Example
 - And More
 
-## Usage
+## Installation
 
-\`\`\`bash
-// cd to the target directory
-View -> Command Palette
-// or
-Ctrl/Cmd+Shift+P
-
-Create Template
 \`\`\`
+git clone https://github.com/harryheman/Modern-HTML-Starter-Template.git
+cd Modern-HTML-Starter-Template
+npm i / yarn
+\`\`\`
+
+## Usage
 
 ### Development Server
 
@@ -63,5 +58,5 @@ npm start / yarn start
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [MIT License](LICENSE)
 `

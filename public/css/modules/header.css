@@ -3,6 +3,11 @@ header h1 {
   font-size: 3rem;
 }
 
+header nav {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
 header a {
   text-decoration: none;
   border-bottom: 1px dashed;

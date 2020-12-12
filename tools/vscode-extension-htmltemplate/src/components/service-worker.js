@@ -1,27 +1,28 @@
 export default `
-const NAME = 'mycache-v1'
+const NAME = 'htmltemplate-v2.0.1'
 
 const FILES = [
   './index.html',
-  './404.html',
-  './css/style.css',
-  './css/modules/footer.css',
-  './css/modules/header.css',
-  './css/modules/loader.css',
-  './css/modules/main.css',
+  './public/404.html',
+  './public/css/style.css',
+  './public/css/modules/footer.css',
+  './public/css/modules/header.css',
+  './public/css/modules/loader.css',
+  './public/css/modules/main.css',
 
-  './script.js',
+  './public/js/script.js',
   './server.js',
   './service-worker.js',
-  './js/src/assets.js',
-  './js/modules/create-timer.js',
-  './js/modules/loader.js',
+  './sw-register.js',
+  './public/js/assets/assets.js',
+  './public/js/modules/create-timer.js',
+  './public/js/modules/loader.js',
 
-  './icons/64x64.png',
-  './icons/128x128.png',
-  './icons/150x150.png',
-  './icons/256x256.png',
-  './icons/512x512.png'
+  './public/icons/64x64.png',
+  './public/icons/128x128.png',
+  './public/icons/150x150.png',
+  './public/icons/256x256.png',
+  './public/icons/512x512.png'
 ]
 
 self.addEventListener('install', (e) => {
@@ -46,7 +47,8 @@ self.addEventListener('activate', (e) => {
 
 self.addEventListener('fetch', (e) => {
   e.respondWith(
-    caches.match(e.request)
+    caches
+      .match(e.request)
       .then(
         (response) =>
           response ||
@@ -59,7 +61,7 @@ self.addEventListener('fetch', (e) => {
             })
           )
       )
-      .catch(() => caches.match('./404.html'))
+      .catch(() => caches.match('./public/404.html'))
   )
 })
 `

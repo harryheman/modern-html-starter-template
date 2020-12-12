@@ -1,6 +1,6 @@
 export default `
 {
-  "name": "html-template",
+  "name": "htmltemplate",
   "version": "1.0.0",
   "main": "server.js",
   "license": "MIT",

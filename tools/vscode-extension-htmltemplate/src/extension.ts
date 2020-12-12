@@ -5,20 +5,21 @@ const path = require('path')
 
 import indexHTML from './components/index.html.js'
 
-import styleCSS from './components/css/style.css.js'
-import footerCSS from './components/css/modules/footer.css.js'
-import headerCSS from './components/css/modules/header.css.js'
-import loaderCSS from './components/css/modules/loader.css.js'
-import mainCSS from './components/css/modules/main.css.js'
+import styleCSS from './components/public/css/style.css.js'
+import footerCSS from './components/public/css/modules/footer.css.js'
+import headerCSS from './components/public/css/modules/header.css.js'
+import loaderCSS from './components/public/css/modules/loader.css.js'
+import mainCSS from './components/public/css/modules/main.css.js'
 
-import scriptJS from './components/script.js'
+import scriptJS from './components/public/js/script.js'
 import serverJS from './components/server.js'
 import serviceWorkerJS from './components/service-worker.js'
-import createTimerJS from './components/js/modules/create-timer.js'
-import loaderJS from './components/js/modules/loader.js'
-import assetsJS from './components/js/src/assets.js'
+import swRegisterJS from './components/sw-register.js'
+import createTimerJS from './components/public/js/modules/create-timer.js'
+import loaderJS from './components/public/js/modules/loader.js'
+import assetsJS from './components/public/js/src/assets.js'
 
-import errorHTML from './components/404.html.js'
+import errorHTML from './components/public/404.html.js'
 import browserconfigXML from './components/browserconfig.xml.js'
 import gitignore from './components/gitignore.js'
 import license from './components/LICENSE.js'
@@ -27,15 +28,14 @@ import packageJSON from './components/package.json.js'
 import readmeMD from './components/README.md.js'
 import robotsTXT from './components/robots.txt.js'
 import sitemapXML from './components/sitemap.xml.js'
-import snippetJSON from './components/snippet.json.js'
 import yarnLock from './components/yarn.lock.js'
 import netlifyToml from './components/netlify.toml.js'
 
-import icon64 from './components/icons/icon64.js'
-import icon128 from './components/icons/icon128.js'
-import icon150 from './components/icons/icon150.js'
-import icon256 from './components/icons/icon256.js'
-import icon512 from './components/icons/icon512.js'
+import icon64 from './components/public/icons/icon64.js'
+import icon128 from './components/public/icons/icon128.js'
+import icon150 from './components/public/icons/icon150.js'
+import icon256 from './components/public/icons/icon256.js'
+import icon512 from './components/public/icons/icon512.js'
 
 export function activate(context: vscode.ExtensionContext) {
   console.log('Congratulations, your extension "htmltemplate" is now active!')
@@ -44,7 +44,7 @@ export function activate(context: vscode.ExtensionContext) {
     'htmltemplate.create',
     () => {
       const folder = (filename: string) =>
-        path.join(vscode.workspace.rootPath, `html-template/${filename}`)
+        path.join(vscode.workspace.rootPath, `htmltemplate/${filename}`)
 
       const files: string[] = [
         indexHTML,
@@ -67,8 +67,8 @@ export function activate(context: vscode.ExtensionContext) {
         scriptJS,
         serverJS,
         serviceWorkerJS,
+        swRegisterJS,
         sitemapXML,
-        snippetJSON,
         yarnLock,
         netlifyToml,
         icon64,
@@ -80,34 +80,34 @@ export function activate(context: vscode.ExtensionContext) {
 
       const fileNames: string[] = [
         'index.html',
-        'css/style.css',
-        'css/modules/footer.css',
-        'css/modules/header.css',
-        'css/modules/loader.css',
-        'css/modules/main.css',
-        'js/modules/create-timer.js',
-        'js/modules/loader.js',
-        'js/src/assets.js',
+        'public/css/style.css',
+        'public/css/modules/footer.css',
+        'public/css/modules/header.css',
+        'public/css/modules/loader.css',
+        'public/css/modules/main.css',
+        'public/js/modules/create-timer.js',
+        'public/js/modules/loader.js',
+        'public/js/src/assets.js',
         '.gitignore',
         'LICENSE',
-        '404.html',
+        'public/404.html',
         'browserconfig.xml',
         'manifest.json',
         'package.json',
         'README.md',
         'robots.txt',
-        'script.js',
+        'public/js/script.js',
         'server.js',
         'service-worker.js',
+        'sw-register.js',
         'sitemap.xml',
-        'vscode-html-snippet.json',
         'yarn.lock',
         'netlify.toml',
-        'icons/64x64.png',
-        'icons/128x128.png',
-        'icons/150x150.png',
-        'icons/256x256.png',
-        'icons/512x512.png'
+        'public/icons/64x64.png',
+        'public/icons/128x128.png',
+        'public/icons/150x150.png',
+        'public/icons/256x256.png',
+        'public/icons/512x512.png'
       ]
 
       ;(async () => {

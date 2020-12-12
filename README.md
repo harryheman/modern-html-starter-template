@@ -21,12 +21,6 @@ Everyone can make their own modern, fast and completely secure progressive web a
 - Create Webpack-project (see usage guide below)
 - And more
 
-## Todo
-
-- Fix VSCode snippet
-- Fix VSCode extension
-- Fix CLI
-
 ## Homepage
 
 [https://mhst.netlify.app/](https://mhst.netlify.app/)
@@ -35,7 +29,7 @@ Everyone can make their own modern, fast and completely secure progressive web a
 
 [https://marketplace.visualstudio.com](https://marketplace.visualstudio.com/items?itemName=igor-agapov.htmltemplate)
 
-## CLI
+## Node CLI
 
 [https://www.npmjs.com](https://www.npmjs.com/package/create-modern-template)
 

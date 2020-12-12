@@ -44,7 +44,6 @@ build/
 # proportion of contributors will probably not be using SublimeText
 # *.sublime-project
 
-
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -60,7 +59,6 @@ build/
 modules.xml
 *.ipr
 *.iml
-
 
 ### System Files ###
 *.DS_Store

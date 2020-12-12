@@ -12,56 +12,56 @@ export default `
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>HTML Template</title>
 
-    <meta name="referrer" content="origin" />
     <link rel="canonical" href="https://mhst.netlify.app/" />
-    <link rel="icon" type="image/png" href="./icons/64x64.png" />
+    <link rel="amphtml" href="https://mhst.netlify.app/amp/index.html" />
+    <link rel="icon" type="image/png" href="./public/icons/64x64.png" />
     <link rel="manifest" href="./manifest.json" />
 
-    <!-- Security -->
-    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
-    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
-
+    <!-- General -->
+    <meta name="application-name" content="HTML Template" />
     <meta name="author" content="Igor Agapov" />
     <meta name="description" content="Modern HTML Starter Template" />
     <meta
       name="keywords"
       content="modern, useful, html, html5, css, css3, javascript, js, template, boilerplate"
     />
+    <meta name="referrer" content="strict-origin" />
 
     <meta itemprop="name" content="HTML Template" />
     <meta itemprop="description" content="Modern HTML Starter Template" />
-    <meta itemprop="image" content="./icons/128x128.png" />
+    <meta itemprop="image" content="./public/icons/128x128.png" />
 
     <!-- Microsoft -->
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="application-name" content="HTML Template" />
-    <meta name="msapplication-tooltip" content="Modern HTML Starter Template" />
     <meta name="msapplication-starturl" content="/" />
+    <meta name="msapplication-tooltip" content="Modern HTML Starter Template" />
+    <meta name="msapplication-TileColor" content="#222" />
     <meta name="msapplication-config" content="browserconfig.xml" />
 
     <!-- Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://mhst.netlify.app/" />
     <meta property="og:title" content="HTML Template" />
-    <meta property="og:image" content="./icons/256x256.png" />
-    <meta property="og:site_name" content="HTML Template" />
     <meta property="og:description" content="Modern HTML Starter Template" />
+    <meta property="og:image" content="./public/icons/256x256.png" />
     <meta property="og:locale" content="en_US" />
 
     <!-- Twitter -->
+    <meta name="twitter:card" content="app" />
     <meta name="twitter:title" content="HTML Template" />
     <meta name="twitter:description" content="Modern HTML Starter Template" />
     <meta name="twitter:url" content="https://mhst.netlify.app/" />
-    <meta name="twitter:image" content="./icons/128x128.png" />
+    <meta name="twitter:image" content="./public/icons/256x256.png" />
 
-    <!-- IOS -->
+    <!-- Apple (IOS) -->
     <meta name="apple-mobile-web-app-title" content="HTML Template" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="#222" />
-    <link rel="apple-touch-icon" href="./icons/256x256.png" />
+    <link rel="apple-touch-icon" href="./public/icons/256x256.png" />
 
     <!-- Android -->
     <meta name="theme-color" content="#eee" />
+    <meta name="color-scheme" content="light" />
     <meta name="mobile-web-app-capable" content="yes" />
 
     <!-- Google Verification Tag -->
@@ -75,35 +75,54 @@ export default `
     <!-- Mail Verification Tag -->
 
     <!-- JSON-LD -->
+    <!-- https://schema.org/WebPage -->
     <script type="application/ld+json">
       {
-        "@context": "http://schema.org/",
-        "@type": "WebPage",
+        "@context": "http://schema.org",
+        "@type": "Webpage",
+        "url": "https://mhst.netlify.app",
         "name": "HTML Template",
-        "image": ["https://mhst.netlify.app/icons/512x512.png"],
-        "author": {
+        "headline": "HTML Template",
+        "description": "Modern HTML Starter Template",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://mhst.netlify.app"
+        },
+        "publisher": {
           "@type": "Person",
           "name": "Igor Agapov"
         },
-        "datePublished": "2020-11-15",
-        "description": "Modern HTML Starter Template",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://mhst.netlify.app/img/logo.png",
+          "width": 1200,
+          "height": 680
+        },
+        "datePublished": "2020-12-13",
         "keywords": "modern, useful, html, html5, css, css3, javascript, js, template, boilerplate"
       }
     </script>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" as="style" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      as="style"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preload" href="./public/css/style.css" as="style" />
+    <link rel="stylesheet" href="./public/css/style.css" />
+
+    <link rel="preload" href="./public/js/script.js" as="script" />
 
     <style>
       /* Critical CSS */
     </style>
-
-    <link rel="preload" href="./css/style.css" as="style" />
-    <link rel="stylesheet" href="./css/style.css" />
-
-    <link rel="preload" href="./script.js" as="script" />
   </head>
 
   <body>
@@ -114,11 +133,7 @@ export default `
         Starter Template
       </h1>
       <nav>
-        <a
-          href="https://mhst.netlify.app"
-          target="_blank"
-          rel="noopener"
-        >
+        <a href="https://htmltemplate.site" target="_blank" rel="noopener">
           WebSite
         </a>
         <a
@@ -137,17 +152,15 @@ export default `
     <footer>
       <p>
         &copy; 2020.
-        <a
-          href="https://github.com/harryheman"
-          target="_blank"
-          rel="noopener"
-        >
+        <a href="https://github.com/harryheman" target="_blank" rel="noopener">
           Igor Agapov
         </a>
       </p>
+      <p>Licensed under MIT</p>
     </footer>
 
-    <script src="./script.js" type="module"></script>
+    <script src="./public/js/script.js" type="module"></script>
+    <script src="./sw-register.js"></script>
   </body>
 </html>
 `
