@@ -17,7 +17,7 @@ import serviceWorkerJS from './components/service-worker.js'
 import swRegisterJS from './components/sw-register.js'
 import createTimerJS from './components/public/js/modules/create-timer.js'
 import loaderJS from './components/public/js/modules/loader.js'
-import assetsJS from './components/public/js/src/assets.js'
+import assetsJS from './components/public/js/assets/assets.js'
 
 import errorHTML from './components/public/404.html.js'
 import browserconfigXML from './components/browserconfig.xml.js'
@@ -87,7 +87,7 @@ export function activate(context: vscode.ExtensionContext) {
         'public/css/modules/main.css',
         'public/js/modules/create-timer.js',
         'public/js/modules/loader.js',
-        'public/js/src/assets.js',
+        'public/js/assets/assets.js',
         '.gitignore',
         'LICENSE',
         'public/404.html',

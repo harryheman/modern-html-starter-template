@@ -2,13 +2,44 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-![logo](https://mhst.netlify.app/img/logo.png)
+![logo](https://moderntemplate.site/img/logo.png)
 
 ## Intro
 
-Everyone can make their own modern, fast and completely secure progressive web application
+I made this template to help you create modern, fast and completely secure progressive web applications
+
+## Includes
+
+- All Meta & Link Tags
+- HTML5 Tags & CSS3 Props
+- CSS & JavaScript Modules
+- Service Worker
+- manifest.json
+- AMP Project
+- Webpack Project
+- Express.js Server
+- All Security Headers
+- netlify.toml
+- AMP Project
+- Webpack Project
+- robots.txt
+- sitemap.xml
+- browserconfig.xml
+- .gitignore
+- Error 404 Page
+- And More
+
+## Homepage
+
+[https://moderntemplate.site/](https://moderntemplate.site/)
 
 ## Updates
+
+### 2020-12-14
+
+- Fix VSCode HTML snippet
+- Fix VSCode Extension
+- Fix Node.js CLI
 
 ### 2020-12-08
 
@@ -17,38 +48,16 @@ Everyone can make their own modern, fast and completely secure progressive web a
 - Create netlify.toml: server settings for Netlify
 - Improve index.html: fix tags and links (add links to the official resources and guides)
 - Fix structured data (json-ld)
-- Create AMP-project (see result of the test below)
-- Create Webpack-project (see usage guide below)
-- And more
-
-## Homepage
-
-[https://mhst.netlify.app/](https://mhst.netlify.app/)
+- Create AMP project (see result of the test below)
+- Create Webpack project (see usage guide below)
 
 ## VSCode Extension
 
 [https://marketplace.visualstudio.com](https://marketplace.visualstudio.com/items?itemName=igor-agapov.htmltemplate)
 
-## Node CLI
+## Node.js CLI
 
 [https://www.npmjs.com](https://www.npmjs.com/package/create-modern-template)
-
-## Includes
-
-- All Meta & Link Tags
-- HTML5 Tags Example
-- CSS3 Props Example
-- CSS Modules Example
-- JavaScript Modules Example
-- manifest.json
-- Sevice Worker Example
-- robots.txt
-- sitemap.xml
-- browserconfig.xml
-- .gitignore
-- Local Express.js Server Example
-- Error 404 Page Example
-- And More
 
 ## Installation
 
@@ -97,19 +106,19 @@ npm run build / yarn build
 
 ### Lighthouse
 
-![lighthouse](https://mhst.netlify.app/img/light-house.png)
+![lighthouse](https://moderntemplate.site/img/light-house.png)
 
 ### WebPageTest
 
-![webpagetest](https://mhst.netlify.app/img/webpagetest.png)
+![webpagetest](https://moderntemplate.site/img/webpagetest.png)
 
 ### SecurityHeaders
 
-![securityheaders](https://mhst.netlify.app/img/securityheaders.png)
+![securityheaders](https://moderntemplate.site/img/securityheaders.png)
 
 ### AMP
 
-![amp](https://mhst.netlify.app/img/amp.png)
+![amp](https://moderntemplate.site/img/amp.png)
 
 ## Author
 
@@ -121,4 +130,4 @@ This project is open source and available under the [MIT License](LICENSE)
 
 ## Support
 
-You can support project on [OpenCollective](https://opencollective.com/mhst)
+You can support project on [OpenCollective](https://opencollective.com/mhst) or [Buy Me A Coffee](https://www.buymeacoffee.com/igoragapov)

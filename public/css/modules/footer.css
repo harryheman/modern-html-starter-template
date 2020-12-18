@@ -5,7 +5,8 @@ footer {
 
 footer a {
   text-decoration: none;
-  border-bottom: 1px dashed;
+  display: block;
+  margin: 0.5rem 0;
 }
 
 footer p {

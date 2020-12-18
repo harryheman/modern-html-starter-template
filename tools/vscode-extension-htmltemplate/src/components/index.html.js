@@ -12,8 +12,8 @@ export default `
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>HTML Template</title>
 
-    <link rel="canonical" href="https://mhst.netlify.app/" />
-    <link rel="amphtml" href="https://mhst.netlify.app/amp/index.html" />
+    <link rel="canonical" href="https://moderntemplate.site/" />
+    <link rel="amphtml" href="https://moderntemplate.site/amp/index.html" />
     <link rel="icon" type="image/png" href="./public/icons/64x64.png" />
     <link rel="manifest" href="./manifest.json" />
 
@@ -40,7 +40,7 @@ export default `
 
     <!-- Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://mhst.netlify.app/" />
+    <meta property="og:url" content="https://moderntemplate.site/" />
     <meta property="og:title" content="HTML Template" />
     <meta property="og:description" content="Modern HTML Starter Template" />
     <meta property="og:image" content="./public/icons/256x256.png" />
@@ -50,7 +50,7 @@ export default `
     <meta name="twitter:card" content="app" />
     <meta name="twitter:title" content="HTML Template" />
     <meta name="twitter:description" content="Modern HTML Starter Template" />
-    <meta name="twitter:url" content="https://mhst.netlify.app/" />
+    <meta name="twitter:url" content="https://moderntemplate.site/" />
     <meta name="twitter:image" content="./public/icons/256x256.png" />
 
     <!-- Apple (IOS) -->
@@ -80,13 +80,13 @@ export default `
       {
         "@context": "http://schema.org",
         "@type": "Webpage",
-        "url": "https://mhst.netlify.app",
+        "url": "https://moderntemplate.site",
         "name": "HTML Template",
         "headline": "HTML Template",
         "description": "Modern HTML Starter Template",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://mhst.netlify.app"
+          "@id": "https://moderntemplate.site"
         },
         "publisher": {
           "@type": "Person",
@@ -94,11 +94,11 @@ export default `
         },
         "image": {
           "@type": "ImageObject",
-          "url": "https://mhst.netlify.app/img/logo.png",
+          "url": "https://moderntemplate.site/img/logo.png",
           "width": 1200,
           "height": 680
         },
-        "datePublished": "2020-12-13",
+        "datePublished": "2020-12-14",
         "keywords": "modern, useful, html, html5, css, css3, javascript, js, template, boilerplate"
       }
     </script>
@@ -133,7 +133,7 @@ export default `
         Starter Template
       </h1>
       <nav>
-        <a href="https://htmltemplate.site" target="_blank" rel="noopener">
+        <a href="https://moderntemplate.site" target="_blank" rel="noopener">
           WebSite
         </a>
         <a

@@ -1,3 +1,4 @@
+export default `
 export const assets = [
   'All Meta & Link Tags',
   'HTML5 Tags & CSS3 Props',
@@ -14,3 +15,4 @@ export const assets = [
   'Creative Error 404 Page',
   'And More'
 ]
+`

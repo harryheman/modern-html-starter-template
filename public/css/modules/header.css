@@ -10,11 +10,11 @@ header nav {
 
 header a {
   text-decoration: none;
-  border-bottom: 1px dashed;
+  display: block;
 }
 
 header a + a {
-  margin-left: 1rem;
+  margin: 0.5rem 0;
 }
 
 header time {
