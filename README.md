@@ -13,20 +13,18 @@ I made this template to help you create modern, fast and completely secure progr
 - All Meta & Link Tags
 - HTML5 Tags & CSS3 Props
 - CSS & JavaScript Modules
-- Service Worker
+- Offline First Service Worker
 - manifest.json
 - AMP Project
 - Webpack Project
 - Express.js Server
 - All Security Headers
 - netlify.toml
-- AMP Project
-- Webpack Project
 - robots.txt
 - sitemap.xml
 - browserconfig.xml
 - .gitignore
-- Error 404 Page
+- Creative Error 404 Page
 - And More
 
 ## Homepage
