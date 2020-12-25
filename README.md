@@ -31,23 +31,7 @@ I made this template to help you create modern, fast and completely secure progr
 
 [https://moderntemplate.site/](https://moderntemplate.site/)
 
-## Updates
-
-### 2020-12-14
-
-- Fix VSCode HTML snippet
-- Fix VSCode Extension
-- Fix Node.js CLI
-
-### 2020-12-08
-
-- Fix service worker: app now can work offline
-- Improve server: fix security headers (see results of the tests below)
-- Create netlify.toml: server settings for Netlify
-- Improve index.html: fix tags and links (add links to the official resources and guides)
-- Fix structured data (json-ld)
-- Create AMP project (see result of the test below)
-- Create Webpack project (see usage guide below)
+### Last Update: 2020-12-25
 
 ## VSCode Extension
 
