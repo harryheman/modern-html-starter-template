@@ -6,7 +6,7 @@
 
 ## Intro
 
-I made this template to help you create modern, fast and completely secure progressive web applications
+This template is made to help you create modern, fast and completely secury progressive web applications. Creating high quality apps has never been so easy
 
 ## Includes
 
