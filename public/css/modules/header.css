@@ -3,9 +3,14 @@ header h1 {
   font-size: 3rem;
 }
 
+header p {
+  padding: 0 1rem;
+  font-size: 1.1rem;
+}
+
 header nav {
   max-width: 80%;
-  margin: 0 auto;
+  margin: 1rem auto;
 }
 
 header a {
