@@ -9,9 +9,6 @@ app.use(prerender)
 
 app.use((req, res) => {
   // Security
-  // https://infosec.mozilla.org/guidelines/web_security
-  // https://owasp.org/www-project-secure-headers/
-  // https://github.com/w3c/webappsec-permissions-policy/blob/master/permissions-policy-explainer.md
   res.setHeader('X-Frame-Options', 'sameorigin')
   res.setHeader('X-Content-Type-Options', 'nosniff')
   res.setHeader('Content-Security-Policy', "frame-ancestors 'self'")
