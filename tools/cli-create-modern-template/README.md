@@ -4,9 +4,9 @@
 
 ![logo](https://moderntemplate.site/img/logo.png)
 
-## Intro
+## Description
 
-I made this template to help you create modern, fast and completely secure progressive web applications
+This template is made to help you create modern, fast and completely secure progressive web applications
 
 ## Homepage
 
@@ -17,15 +17,17 @@ I made this template to help you create modern, fast and completely secure progr
 - All Meta & Link Tags
 - HTML5 Tags & CSS3 Props
 - CSS & JavaScript Modules
-- Service Worker
+- Offline First Service Worker
 - manifest.json
-- Express.js Server
+- AMP Project
 - All Security Headers
+- Express.js Server
 - netlify.toml
 - robots.txt
 - sitemap.xml
 - browserconfig.xml
 - .gitignore
+- README.md
 - Error 404 Page
 - And More
 
@@ -40,7 +42,6 @@ yarn global add create-modern-template
 ## Usage
 
 ```bash
-// create target directory, cd to it
 create-modern-template
 // without installation
 npx create-modern-template

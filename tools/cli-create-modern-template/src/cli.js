@@ -19,6 +19,7 @@ const parseArgumentsIntoOptions = (rawArgs) => {
 
   return {
     template: 'template',
+    targetDirectory: 'htmltemplate',
     skipPrompts: args['--yes'] || false,
     git: args['--git'] || false,
     install: args['--install'] || false
@@ -27,11 +28,7 @@ const parseArgumentsIntoOptions = (rawArgs) => {
 
 const promptForMissingOptions = async (options) => {
   if (options.skipPrompts) {
-    return {
-      ...options,
-      git: false,
-      install: false
-    }
+    return options
   }
 
   const questions = []
@@ -58,8 +55,8 @@ const promptForMissingOptions = async (options) => {
 
   return {
     ...options,
-    git: options.git || answers.git,
-    install: options.install || answers.install
+    git: answers.git,
+    install: answers.install
   }
 }
 

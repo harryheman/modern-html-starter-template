@@ -1,0 +1,28 @@
+header h1 {
+  margin: 0.5rem 0;
+  font-size: 3rem;
+}
+
+header nav {
+  max-width: 80%;
+  margin: 1rem auto;
+}
+
+header p {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+header a {
+  text-decoration: none;
+  display: block;
+}
+
+header a + a {
+  margin: 0.5rem 0;
+}
+
+header time {
+  display: block;
+  margin: 1rem 0;
+}

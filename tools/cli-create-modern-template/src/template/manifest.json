@@ -1,6 +1,6 @@
 {
   "name": "HTML Template",
-  "short_name": "MHST",
+  "short_name": "HTML Template",
   "scope": "/",
   "start_url": ".",
   "display": "standalone",
@@ -10,23 +10,23 @@
   "description": "Modern HTML Starter Template",
   "icons": [
     {
-      "src": "./public/icons/64x64.png",
+      "src": "./img/icons/64x64.png",
       "sizes": "64x64",
       "type": "image/png"
     },
     {
-      "src": "./public/icons/128x128.png",
+      "src": "./img/icons/128x128.png",
       "sizes": "128x128",
       "type": "image/png"
     },
     {
-      "src": "./public/icons/256x256.png",
+      "src": "./img/icons/256x256.png",
       "sizes": "256x256",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "./public/icons/512x512.png",
+      "src": "./img/icons/512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }

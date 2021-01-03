@@ -9,12 +9,12 @@
     Permissions-Policy = "camera=(), geolocation=(), microphone=()"
     Cache-Control = "max-age=31536000"
     Link = '''
-    </public/css/style.css>; rel=preload; as=style, \
-    </public/css/modules/footer.css>; rel=preload; as=style, \
-    </public/css/modules/header.css>; rel=preload; as=style, \
-    </public/css/modules/loader.css>; rel=preload; as=style, \
-    </public/css/modules/main.css>; rel=preload; as=style, \
-    </public/script.js>; rel=preload; as=script, \
-    </public/js/modules/create-timer.js>; rel=preload; as=script, \
-    </public/js/modules/loader.js>; rel=preload; as=script, \
-    </public/js/assets/assets.js>; rel=preload; as=script'''
+    </src/css/style.css>; rel=preload; as=style, \
+    </src/css/modules/footer.css>; rel=preload; as=style, \
+    </src/css/modules/header.css>; rel=preload; as=style, \
+    </src/css/modules/loader.css>; rel=preload; as=style, \
+    </src/css/modules/main.css>; rel=preload; as=style, \
+    </src/script.js>; rel=preload; as=script, \
+    </src/js/modules/create-timer.js>; rel=preload; as=script, \
+    </src/js/modules/loader.js>; rel=preload; as=script, \
+    </src/js/assets/assets.js>; rel=preload; as=script'''

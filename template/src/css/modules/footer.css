@@ -1,0 +1,14 @@
+footer {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+footer a {
+  text-decoration: none;
+  display: block;
+  margin: 0.5rem 0;
+}
+
+footer p {
+  margin: 1rem 0;
+}

@@ -4,21 +4,20 @@
   dir="ltr"
   itemscope
   itemtype="https://schema.org/WebPage"
-  prefix="og: http://ogp.me/ns#"
+  prefix="og:http://ogp.me/ns#"
 >
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>HTML Template</title>
 
     <link rel="canonical" href="https://moderntemplate.site/" />
     <link rel="amphtml" href="https://moderntemplate.site/amp/index.html" />
-    <link rel="icon" type="image/png" href="./public/icons/64x64.png" />
+    <link rel="icon" type="image/png" href="./img/icons/64x64.png" />
     <link rel="manifest" href="./manifest.json" />
 
     <!-- General -->
-    <!-- https://www.w3.org/TR/html52/document-metadata.html#the-meta-element -->
-    <!-- https://html.spec.whatwg.org/multipage/semantics.html#the-meta-element -->
     <meta name="application-name" content="HTML Template" />
     <meta name="author" content="Igor Agapov" />
     <meta name="description" content="Modern HTML Starter Template" />
@@ -30,44 +29,38 @@
 
     <meta itemprop="name" content="HTML Template" />
     <meta itemprop="description" content="Modern HTML Starter Template" />
-    <meta itemprop="image" content="./public/icons/128x128.png" />
+    <meta itemprop="image" content="./img/icons/128x128.png" />
 
     <!-- Microsoft -->
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="msapplication-starturl" content="/" />
     <meta name="msapplication-tooltip" content="Modern HTML Starter Template" />
-    <meta name="msapplication-TileColor" content="#222" />
+    <meta name="msapplication-TileColor" content="#333" />
     <meta name="msapplication-config" content="browserconfig.xml" />
 
     <!-- Facebook -->
-    <!-- https://developers.facebook.com/docs/sharing/webmasters/ -->
-    <!-- https://ogp.me/ -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://moderntemplate.site/" />
     <meta property="og:title" content="HTML Template" />
     <meta property="og:description" content="Modern HTML Starter Template" />
-    <meta property="og:image" content="./public/icons/256x256.png" />
+    <meta property="og:image" content="./img/icons/600x600.png" />
     <meta property="og:locale" content="en_US" />
 
     <!-- Twitter -->
-    <!-- https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started -->
-    <!-- https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup -->
     <meta name="twitter:card" content="app" />
     <meta name="twitter:title" content="HTML Template" />
     <meta name="twitter:description" content="Modern HTML Starter Template" />
     <meta name="twitter:url" content="https://moderntemplate.site/" />
-    <meta name="twitter:image" content="./public/icons/256x256.png" />
+    <meta name="twitter:image" content="./img/icons/512x512.png" />
 
-    <!-- Apple (IOS) -->
-    <!-- https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html -->
-    <!-- https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html -->
+    <!-- IOS -->
     <meta name="apple-mobile-web-app-title" content="HTML Template" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="#222" />
-    <link rel="apple-touch-icon" href="./public/icons/256x256.png" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#333" />
+    <link rel="apple-touch-icon" href="./img/icons/512x512.png" />
 
     <!-- Android -->
-    <meta name="theme-color" content="#eee" />
+    <meta name="theme-color" content="#f0f0f0" />
     <meta name="color-scheme" content="light" />
     <meta name="mobile-web-app-capable" content="yes" />
 
@@ -88,7 +81,6 @@
 
     <!-- Yandex Verification Tag -->
     <meta name="yandex-verification" content="b13109f17dd8ecd6" />
-
     <!-- Yandex.Metrika counter -->
     <script>
       ;(function (m, e, t, r, i, k, a) {
@@ -128,7 +120,6 @@
     </noscript>
 
     <!-- JSON-LD -->
-    <!-- https://schema.org/WebPage -->
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",
@@ -147,7 +138,7 @@
         },
         "image": {
           "@type": "ImageObject",
-          "url": "https://moderntemplate.site/img/logo.png",
+          "url": "./img/logo.png",
           "width": 1200,
           "height": 680
         },
@@ -168,10 +159,10 @@
       rel="stylesheet"
     />
 
-    <link rel="preload" href="./public/css/style.css" as="style" />
-    <link rel="stylesheet" href="./public/css/style.css" />
+    <link rel="preload" href="./src/css/style.css" as="style" />
+    <link rel="stylesheet" href="./src/css/style.css" />
 
-    <link rel="preload" href="./public/js/script.js" as="script" />
+    <link rel="preload" href="./src/js/script.js" as="script" />
 
     <style>
       /* Critical CSS */
@@ -185,7 +176,10 @@
         Modern HTML <br />
         Starter Template
       </h1>
-      <p>This template is made to help you create modern, fast and completely secure progressive web applications. Creating high quality apps has never been so easy</p>
+      <p>
+        This template is made to help you create modern, fast and completely
+        secure progressive web applications
+      </p>
       <nav>
         <a href="./htmltemplate.7z" download>Download</a>
         <a
@@ -196,11 +190,11 @@
           GitHub
         </a>
         <a
-          href="https://marketplace.visualstudio.com/items?itemName=igor-agapov.htmltemplate"
+          href="https://raw.githubusercontent.com/harryheman/Modern-HTML-Starter-Template/main/tools/vscode-html-snippet.json"
           target="_blank"
           rel="noopener"
         >
-          VSCode Extension
+          VSCode HTML-Snippet
         </a>
         <a
           href="https://www.npmjs.com/package/create-modern-template"
@@ -217,19 +211,12 @@
 
     <footer>
       <p>
-        &copy; 2020.
+        &copy; 2020. All rights reserved
         <a href="https://github.com/harryheman" target="_blank" rel="noopener">
           Igor Agapov
         </a>
       </p>
       <p>
-        <a
-          href="https://opencollective.com/mhst"
-          target="_blank"
-          rel="noopener"
-        >
-          Support project on OpenCollective
-        </a>
         <a
           href="https://www.buymeacoffee.com/igoragapov"
           target="_blank"
@@ -241,7 +228,7 @@
       <p>Licensed under MIT</p>
     </footer>
 
-    <script src="./public/js/script.js" type="module"></script>
+    <script src="./src/js/script.js" type="module"></script>
     <script src="./sw-register.js"></script>
   </body>
 </html>

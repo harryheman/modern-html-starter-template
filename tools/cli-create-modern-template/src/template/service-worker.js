@@ -2,26 +2,31 @@ const NAME = 'htmltemplate-v2.0.1'
 
 const FILES = [
   './index.html',
-  './public/404.html',
-  './public/css/style.css',
-  './public/css/modules/footer.css',
-  './public/css/modules/header.css',
-  './public/css/modules/loader.css',
-  './public/css/modules/main.css',
 
-  './public/js/script.js',
   './server.js',
-  './service-worker.js',
-  './sw-register.js',
-  './public/js/assets/assets.js',
-  './public/js/modules/create-timer.js',
-  './public/js/modules/loader.js',
 
-  './public/icons/64x64.png',
-  './public/icons/128x128.png',
-  './public/icons/150x150.png',
-  './public/icons/256x256.png',
-  './public/icons/512x512.png'
+  './src/404.html',
+  './src/css/style.css',
+  './src/css/modules/footer.css',
+  './src/css/modules/header.css',
+  './src/css/modules/loader.css',
+  './src/css/modules/main.css',
+
+  './src/js/script.js',
+  './src/js/assets/index.js',
+  './src/js/modules/create-timer.js',
+  './src/js/modules/loader.js',
+
+  './img/logo.png',
+  './img/icons/64x64.png',
+  './img/icons/70x70.png',
+  './img/icons/128x128.png',
+  './img/icons/150x150.png',
+  './img/icons/256x256.png',
+  './img/icons/310x150.png',
+  './img/icons/310x310.png',
+  './img/icons/512x512.png',
+  './img/icons/600x600.png'
 ]
 
 self.addEventListener('install', (e) => {
@@ -60,6 +65,6 @@ self.addEventListener('fetch', (e) => {
             })
           )
       )
-      .catch(() => caches.match('./public/404.html'))
+      .catch(() => caches.match('./src/404.html'))
   )
 })

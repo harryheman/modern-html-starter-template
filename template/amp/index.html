@@ -1,0 +1,226 @@
+<!doctype html>
+<!-- https://amp.dev/boilerplate/ -->
+<html ⚡ lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <meta name="description" content="Modern HTML Starter Template">
+  <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+  <link rel="preconnect dns-prefetch" href="https://fonts.gstatic.com/" crossorigin>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
+  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <style amp-custom>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      color: #222;
+      text-align: center;
+      min-height: 100vh;
+      background: linear-gradient(yellow, orange);
+    }
+
+    header h1 {
+      margin: 0.5rem 0;
+      font-size: 3rem;
+    }
+
+    header a {
+      text-decoration: none;
+      border-bottom: 1px dashed;
+    }
+
+    header a+a {
+      margin-left: 1rem;
+    }
+
+    header time {
+      display: block;
+      margin: 1rem 0;
+    }
+
+    footer {
+      margin: 0.5rem 0;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      text-decoration: none;
+      border-bottom: 1px dashed;
+    }
+
+    footer p {
+      margin: 1rem 0;
+    }
+
+    @media (max-width: 636px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      main h3 {
+        font-size: 1.5rem;
+      }
+
+      main li {
+        font-size: 1rem;
+      }
+    }
+
+    amp-layout {
+      max-width: 768px;
+      margin: 0 auto;
+    }
+
+    amp-img {
+      max-width: 80%;
+      margin: 2rem auto;
+      border-radius: 6px;
+    }
+  </style>
+  <style amp-boilerplate>
+    body {
+      -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      animation: -amp-start 8s steps(1, end) 0s 1 normal both
+    }
+
+    @-webkit-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @-moz-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @-ms-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @-o-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+  </style>
+  <noscript>
+    <style amp-boilerplate>
+      body {
+        -webkit-animation: none;
+        -moz-animation: none;
+        -ms-animation: none;
+        animation: none
+      }
+    </style>
+  </noscript>
+
+  <link rel="canonical" href="https://moderntemplate.site/index.html">
+  <title>HTML Template</title>
+  <link rel="manifest" href="./manifest.json">
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Webpage",
+      "url": "https://moderntemplate.site",
+      "name": "HTML Template",
+      "headline": "HTML Template",
+      "description": "Modern HTML Starter Template",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://moderntemplate.site"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Igor Agapov",
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://moderntemplate.site/img/logo.png",
+        "width": 1200,
+        "height": 680
+      },
+      "datePublished": "2020-12-08"
+    }
+  </script>
+</head>
+
+<body>
+  <amp-layout layout="container">
+    <header>
+      <h1>Modern HTML <br> Starter Template</h1>
+      <nav>
+        <a href="https://moderntemplate.site" target="_blank" rel="noopener">WebSite</a>
+        <a href="https://github.com/harryheman/Modern-HTML-Starter-Template" target="_blank" rel="noopener">
+          GitHub
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <amp-img src="../img/logo.png" layout="responsive" width="1200" height="680"></amp-img>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2020.
+        <a href="https://github.com/harryheman" target="_blank" rel="noopener">
+          Igor Agapov
+        </a>
+      </p>
+      <p>Licensed under MIT</p>
+    </footer>
+  </amp-layout>
+
+  <amp-install-serviceworker src="./sw.js" data-iframe-src="install-sw.html" layout="nodisplay">
+  </amp-install-serviceworker>
+  <amp-analytics type="gtag" data-credentials="include">
+    <script type="application/json">
+    {
+      "vars" : {
+        "gtag_id": "G-R2QPPP7JDN",
+        "config" : {
+          "G-R2QPPP7JDN": {
+            "groups": "default"
+          }
+        }
+      }
+    }
+    </script>
+  </amp-analytics>
+</body>
+
+</html>

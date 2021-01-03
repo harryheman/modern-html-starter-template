@@ -39,13 +39,9 @@ const initGit = async (options) => {
 }
 
 export const createProject = async (options) => {
-  options.targetDirectory = process.cwd()
-
-  const fullPath = path.resolve(__filename)
-
-  const templateDir = fullPath.replace('main.js', `${options.template}`)
-
-  options.templateDirectory = templateDir
+  options.templateDirectory = path
+    .resolve(__filename)
+    .replace('main.js', `${options.template}`)
 
   try {
     await access(options.templateDirectory, fs.constants.R_OK)

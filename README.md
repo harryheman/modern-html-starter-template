@@ -4,9 +4,9 @@
 
 ![logo](https://moderntemplate.site/img/logo.png)
 
-## Intro
+## Description
 
-This template is made to help you create modern, fast and completely secure progressive web applications. Creating high quality apps has never been so easy
+This template is made to help you create modern, fast and completely secure progressive web applications
 
 ## Includes
 
@@ -16,26 +16,28 @@ This template is made to help you create modern, fast and completely secure prog
 - Offline First Service Worker
 - manifest.json
 - AMP Project
-- Webpack Project
-- Express.js Server
 - All Security Headers
+- Express.js Server
 - netlify.toml
 - robots.txt
 - sitemap.xml
 - browserconfig.xml
 - .gitignore
-- Creative Error 404 Page
+- README.md
+- Error 404 Page
 - And More
 
 ## Homepage
 
 [https://moderntemplate.site/](https://moderntemplate.site/)
 
-### Last Update: 2020-12-25
+### Last Update: 2021-01-03
 
-## VSCode Extension
+### Current Version: 2.0.6
 
-[https://marketplace.visualstudio.com](https://marketplace.visualstudio.com/items?itemName=igor-agapov.htmltemplate)
+## VSCode HTML-Snippet
+
+[https://raw.githubusercontent.com](https://raw.githubusercontent.com/harryheman/Modern-HTML-Starter-Template/main/tools/vscode-html-snippet.json)
 
 ## Node.js CLI
 
@@ -51,37 +53,16 @@ npm i / yarn
 
 ## Usage
 
-### Main
-
-#### Development Server
+### Development Server
 
 ```bash
 npm run dev / yarn dev
 ```
 
-#### Production Server
+### Production Server
 
 ```bash
 npm start / yarn start
-```
-
-### Webpack
-
-```bash
-cd webpack
-npm i / yarn
-```
-
-#### Development Server
-
-```bash
-npm run dev / yarn dev
-```
-
-#### Production Build
-
-```bash
-npm run build / yarn build
 ```
 
 ## Tests
@@ -112,4 +93,4 @@ This project is open source and available under the [MIT License](LICENSE)
 
 ## Support
 
-You can support project on [OpenCollective](https://opencollective.com/mhst) or [Buy Me A Coffee](https://www.buymeacoffee.com/igoragapov)
+You can [Buy Me A Coffee](https://www.buymeacoffee.com/igoragapov)
