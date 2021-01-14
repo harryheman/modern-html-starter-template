@@ -31,9 +31,7 @@ This template is made to help you create modern, fast and completely secure prog
 
 [https://moderntemplate.site/](https://moderntemplate.site/)
 
-### Last Update: 2021-01-03
-
-### Current Version: 2.0.6
+### Last Update: 2021-01-14
 
 ## VSCode HTML-Snippet
 
@@ -93,4 +91,4 @@ This project is open source and available under the [MIT License](LICENSE)
 
 ## Support
 
-You can [Buy Me A Coffee](https://www.buymeacoffee.com/igoragapov)
+[Buy Me A Coffee](https://www.buymeacoffee.com/igoragapov)
