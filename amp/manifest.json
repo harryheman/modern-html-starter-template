@@ -15,19 +15,44 @@
       "type": "image/png"
     },
     {
+      "src": "./icons/64x64.png",
+      "sizes": "70x70",
+      "type": "image/png"
+    },
+    {
       "src": "./icons/128x128.png",
       "sizes": "128x128",
       "type": "image/png"
     },
     {
+      "src": "./icons/128x128.png",
+      "sizes": "150x150",
+      "type": "image/png"
+    },
+    {
       "src": "./icons/256x256.png",
       "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/256x256.png",
+      "sizes": "310x150",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/256x256.png",
+      "sizes": "310x310",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/512x512.png",
+      "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
       "src": "./icons/512x512.png",
-      "sizes": "512x512",
+      "sizes": "600x600",
       "type": "image/png"
     }
   ],

@@ -1,3 +1,4 @@
+<!-- Don't forget to change APP_WHATEVER -->
 <!doctype html>
 <!-- https://amp.dev/boilerplate/ -->
 <html ⚡ lang="en-us">
@@ -5,13 +6,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-  <meta name="description" content="Modern HTML Starter Template">
+  <meta name="description" content="APP_DESCRIPTION">
   <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
   <link rel="preconnect dns-prefetch" href="https://fonts.gstatic.com/" crossorigin>
   <script async src="https://cdn.ampproject.org/v0.js"></script>
   <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      as="style"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
   <style amp-custom>
     body {
       font-family: 'Montserrat', sans-serif;
@@ -148,28 +159,28 @@
     </style>
   </noscript>
 
-  <link rel="canonical" href="https://moderntemplate.site/index.html">
-  <title>HTML Template</title>
+  <link rel="canonical" href="APP_URL/index.html">
+  <title>APP_TITLE</title>
   <link rel="manifest" href="./manifest.json">
   <script type="application/ld+json">
     {
       "@context": "http://schema.org",
       "@type": "Webpage",
-      "url": "https://moderntemplate.site",
-      "name": "HTML Template",
-      "headline": "HTML Template",
-      "description": "Modern HTML Starter Template",
+      "url": "APP_URL",
+      "name": "APP_TITLE",
+      "headline": "APP_TITLE",
+      "description": "APP_DESCRIPTION",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://moderntemplate.site"
+        "@id": "APP_URL"
       },
       "publisher": {
         "@type": "Person",
-        "name": "Igor Agapov",
+        "name": "APP_AUTHOR",
       },
       "image": {
         "@type": "ImageObject",
-        "url": "https://moderntemplate.site/img/logo.png",
+        "url": "APP_URL/img/logo.png",
         "width": 1200,
         "height": 680
       },
@@ -181,10 +192,10 @@
 <body>
   <amp-layout layout="container">
     <header>
-      <h1>Modern HTML <br> Starter Template</h1>
+      <h1>APP_TITLE</h1>
       <nav>
-        <a href="https://moderntemplate.site" target="_blank" rel="noopener">WebSite</a>
-        <a href="https://github.com/harryheman/Modern-HTML-Starter-Template" target="_blank" rel="noopener">
+        <a href="APP_URL" target="_blank" rel="noopener">WebSite</a>
+        <a href="https://github.com/APP_AUTHOR/APP_TITLE" target="_blank" rel="noopener">
           GitHub
         </a>
       </nav>
@@ -195,12 +206,6 @@
     </main>
 
     <footer>
-      <p>
-        &copy; 2020.
-        <a href="https://github.com/harryheman" target="_blank" rel="noopener">
-          Igor Agapov
-        </a>
-      </p>
       <p>Licensed under MIT</p>
     </footer>
   </amp-layout>

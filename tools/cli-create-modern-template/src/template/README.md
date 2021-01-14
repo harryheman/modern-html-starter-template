@@ -1,51 +1,26 @@
-# Modern HTML Starter Template
+# APP_TITLE
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-![logo](https://moderntemplate.site/img/logo.png)
+![logo](APP_URL/img/logo.png)
 
-## Description
+## APP_DESCRIPTION
 
-This template is made to help you create modern, fast and completely secure progressive web applications
+Some key concepts about your app
 
-## Includes
+## APP_INFO
 
-- All Meta & Link Tags
-- HTML5 Tags & CSS3 Props
-- CSS & JavaScript Modules
-- Offline First Service Worker
-- manifest.json
-- AMP Project
-- All Security Headers
-- Express.js Server
-- netlify.toml
-- robots.txt
-- sitemap.xml
-- browserconfig.xml
-- .gitignore
-- README.md
-- Error 404 Page
-- And More
+Some additional information about your app
 
 ## Homepage
 
-[https://moderntemplate.site/](https://moderntemplate.site/)
-
-### Last Update: 2021-01-03
-
-## VSCode HTML-Snippet
-
-[https://raw.githubusercontent.com](https://raw.githubusercontent.com/harryheman/Modern-HTML-Starter-Template/main/tools/vscode-html-snippet.json)
-
-## Node.js CLI
-
-[https://www.npmjs.com](https://www.npmjs.com/package/create-modern-template)
+[APP_URL/](APP_URL/)
 
 ## Installation
 
 ```
-git clone https://github.com/harryheman/Modern-HTML-Starter-Template.git
-cd Modern-HTML-Starter-Template
+git clone https://github.com/APP_AUTHOR/APP_TITLE.git
+cd APP_TITLE
 npm i / yarn
 ```
 
@@ -65,7 +40,7 @@ npm start / yarn start
 
 ## Author
 
-- [Igor Agapov](https://github.com/harryheman)
+- [APP_AUTHOR](https://github.com/APP_AUTHOR)
 
 ## License
 

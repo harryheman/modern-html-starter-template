@@ -24,7 +24,7 @@ This template is made to help you create modern, fast and completely secure prog
 - browserconfig.xml
 - .gitignore
 - README.md
-- Error 404 Page
+- Creative Error 404 Page
 - And More
 
 ## Homepage

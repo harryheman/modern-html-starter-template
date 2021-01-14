@@ -1,6 +1,6 @@
-const NAME = 'htmltemplate-v2.0.1'
+const CACHE_NAME = 'CACHE_NAME-v1.0.0'
 
-const FILES = [
+const CACHE_FILES = [
   './index.html',
 
   './server.js',
@@ -30,7 +30,7 @@ const FILES = [
 ]
 
 self.addEventListener('install', (e) => {
-  e.waitUntil(caches.open(NAME).then((cache) => cache.addAll(FILES)))
+  e.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(CACHE_FILES)))
   self.skipWaiting()
 })
 
@@ -39,7 +39,7 @@ self.addEventListener('activate', (e) => {
     caches.keys().then((keys) =>
       Promise.all(
         keys.map((key) => {
-          if (key !== NAME) {
+          if (key !== CACHE_NAME) {
             return caches.delete(key)
           }
         })
@@ -57,7 +57,7 @@ self.addEventListener('fetch', (e) => {
         (response) =>
           response ||
           fetch(e.request).then((response) =>
-            caches.open(NAME).then((cache) => {
+            caches.open(CACHE_NAME).then((cache) => {
               if (e.request.method === 'GET') {
                 cache.put(e.request, response.clone())
               }

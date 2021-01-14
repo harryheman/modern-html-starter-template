@@ -1,3 +1,4 @@
+<!-- Don't forget to change APP_WHATEVER here, in src/404.html, manifest.json, README.md, sitemap.xml, app_title in package.json, CACHE_NAME in service-worker.js -->
 <!DOCTYPE html>
 <html
   lang="en"
@@ -10,51 +11,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>HTML Template</title>
+    <title>APP_TITLE</title>
 
-    <link rel="canonical" href="https://moderntemplate.site/" />
-    <link rel="amphtml" href="https://moderntemplate.site/amp/index.html" />
+    <link rel="canonical" href="APP_URL/" />
+    <link rel="amphtml" href="APP_URL/amp/index.html" />
     <link rel="icon" type="image/png" href="./img/icons/64x64.png" />
     <link rel="manifest" href="./manifest.json" />
 
     <!-- General -->
-    <meta name="application-name" content="HTML Template" />
-    <meta name="author" content="Igor Agapov" />
-    <meta name="description" content="Modern HTML Starter Template" />
+    <meta name="application-name" content="APP_TITLE" />
+    <meta name="author" content="APP_AUTHOR" />
+    <meta name="description" content="APP_DESCRIPTION" />
     <meta
       name="keywords"
       content="modern, useful, html, html5, css, css3, javascript, js, template, boilerplate"
     />
     <meta name="referrer" content="strict-origin" />
 
-    <meta itemprop="name" content="HTML Template" />
-    <meta itemprop="description" content="Modern HTML Starter Template" />
+    <meta itemprop="name" content="APP_TITLE" />
+    <meta itemprop="description" content="APP_DESCRIPTION" />
     <meta itemprop="image" content="./img/icons/128x128.png" />
 
     <!-- Microsoft -->
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="msapplication-starturl" content="/" />
-    <meta name="msapplication-tooltip" content="Modern HTML Starter Template" />
+    <meta name="msapplication-tooltip" content="APP_DESCRIPTION" />
     <meta name="msapplication-TileColor" content="#333" />
     <meta name="msapplication-config" content="browserconfig.xml" />
 
     <!-- Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://moderntemplate.site/" />
-    <meta property="og:title" content="HTML Template" />
-    <meta property="og:description" content="Modern HTML Starter Template" />
+    <meta property="og:url" content="APP_URL/" />
+    <meta property="og:title" content="APP_TITLE" />
+    <meta property="og:description" content="APP_DESCRIPTION" />
     <meta property="og:image" content="./img/icons/600x600.png" />
     <meta property="og:locale" content="en_US" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="app" />
-    <meta name="twitter:title" content="HTML Template" />
-    <meta name="twitter:description" content="Modern HTML Starter Template" />
-    <meta name="twitter:url" content="https://moderntemplate.site/" />
+    <meta name="twitter:title" content="APP_TITLE" />
+    <meta name="twitter:description" content="APP_DESCRIPTION" />
+    <meta name="twitter:url" content="APP_URL/" />
     <meta name="twitter:image" content="./img/icons/512x512.png" />
 
     <!-- IOS -->
-    <meta name="apple-mobile-web-app-title" content="HTML Template" />
+    <meta name="apple-mobile-web-app-title" content="APP_TITLE" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="#333" />
     <link rel="apple-touch-icon" href="./img/icons/512x512.png" />
@@ -84,17 +85,17 @@
       {
         "@context": "http://schema.org",
         "@type": "Webpage",
-        "url": "https://moderntemplate.site",
-        "name": "HTML Template",
-        "headline": "HTML Template",
-        "description": "Modern HTML Starter Template",
+        "url": "APP_URL",
+        "name": "APP_TITLE",
+        "headline": "APP_TITLE",
+        "description": "APP_DESCRIPTION",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://moderntemplate.site"
+          "@id": "APP_URL"
         },
         "publisher": {
           "@type": "Person",
-          "name": "Igor Agapov"
+          "name": "APP_AUTHOR"
         },
         "image": {
           "@type": "ImageObject",
@@ -133,16 +134,12 @@
     <!-- HTML5 -->
     <header>
       <h1>
-        Modern HTML <br />
-        Starter Template
+        APP_TITLE
       </h1>
-      <p>
-        This template is made to help you create modern, fast and completely
-        secure progressive web applications
-      </p>
       <nav>
+        <a href="APP_URL" target="_blank" rel="noopener">WebSite</a>
         <a
-          href="https://github.com/harryheman/Modern-HTML-Starter-Template"
+          href="https://github.com/APP_AUTHOR/APP_TITLE"
           target="_blank"
           rel="noopener"
         >
@@ -155,12 +152,6 @@
     <main></main>
 
     <footer>
-      <p>
-        &copy; 2020. All rights reserved
-        <a href="https://github.com/harryheman" target="_blank" rel="noopener">
-          Igor Agapov
-        </a>
-      </p>
       <p>Licensed under MIT</p>
     </footer>
 
