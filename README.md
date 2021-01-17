@@ -31,7 +31,7 @@ This template is made to help you create modern, fast and completely secure prog
 
 [https://moderntemplate.site/](https://moderntemplate.site/)
 
-### Last Update: 2021-01-14
+### Last Update: 2021-01-17
 
 ## VSCode HTML-Snippet
 

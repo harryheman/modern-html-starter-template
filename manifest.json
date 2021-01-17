@@ -5,8 +5,8 @@
   "start_url": ".",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#eee",
-  "theme_color": "#222",
+  "background_color": "#f0f0f0",
+  "theme_color": "#1c1c1c",
   "description": "Modern HTML Starter Template",
   "icons": [
     {
