@@ -46,6 +46,7 @@ This template is made to help you create modern, fast and completely secure prog
 ```
 git clone https://github.com/harryheman/Modern-HTML-Starter-Template.git
 cd Modern-HTML-Starter-Template
+cd template
 npm i / yarn
 ```
 
@@ -62,6 +63,8 @@ npm run dev / yarn dev
 ```bash
 npm start / yarn start
 ```
+
+Don't forget to change APP_WHATEVER.
 
 ## Tests
 
