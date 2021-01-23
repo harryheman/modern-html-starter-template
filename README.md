@@ -91,7 +91,3 @@ Don't forget to change APP_WHATEVER.
 ## License
 
 This project is open source and available under the [MIT License](LICENSE)
-
-## Support
-
-[Buy Me A Coffee](https://www.buymeacoffee.com/igoragapov)
