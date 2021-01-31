@@ -31,23 +31,34 @@ This template is made to help you create modern, fast and completely secure prog
 
 [https://moderntemplate.site/](https://moderntemplate.site/)
 
-### Last Update: 2021-01-17
-
-## VSCode HTML-Snippet
-
-[https://raw.githubusercontent.com](https://raw.githubusercontent.com/harryheman/Modern-HTML-Starter-Template/main/tools/vscode-html-snippet.json)
+### Last Update: 2021-01-31
 
 ## Node.js CLI
 
 [https://www.npmjs.com](https://www.npmjs.com/package/create-modern-template)
 
+## VSCode HTML Snippet
+
+[https://marketplace.visualstudio.com](https://marketplace.visualstudio.com/items?itemName=igor-agapov.modernsnippet)
+
+Enter `modernsnippet` or `HTML Modern Snippet` in VSCode Extensions
+
 ## Installation
 
 ```
-git clone https://github.com/harryheman/Modern-HTML-Starter-Template.git
-cd Modern-HTML-Starter-Template
-cd template
-npm i / yarn
+yarn create modern-template
+# or
+npm init modern-template
+# or
+npx create-modern-template
+```
+
+## Flags
+
+```bash
+--yes / -y -> skip questions
+--git / -g -> initialize git
+--install / -i -> install dependencies
 ```
 
 ## Usage

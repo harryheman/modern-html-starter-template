@@ -2,7 +2,7 @@ export const assets = [
   'All Meta & Link Tags',
   'HTML5 Tags & CSS3 Props',
   'CSS & JavaScript Modules',
-  'Service Worker',
+  'Offline First Service Worker',
   'manifest.json',
   'AMP Project',
   'All Security Headers',
@@ -13,6 +13,6 @@ export const assets = [
   'browserconfig.xml',
   '.gitignore',
   'README.md',
-  'Error 404 Page',
+  'Creative Error 404 Page',
   'And More'
 ]

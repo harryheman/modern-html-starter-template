@@ -24,4 +24,6 @@ app.use((req, res) => {
   res.sendFile(__dirname + decodeURIComponent(req.url))
 })
 
-app.listen(process.env.PORT || 1234)
+app.listen(process.env.PORT || 1234, () => {
+  console.log(`Server ready. Port: ${PORT}`)
+})

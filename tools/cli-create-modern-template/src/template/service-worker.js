@@ -6,6 +6,7 @@ const CACHE_FILES = [
   './server.js',
 
   './src/404.html',
+
   './src/css/style.css',
   './src/css/modules/footer.css',
   './src/css/modules/header.css',
@@ -30,7 +31,9 @@ const CACHE_FILES = [
 ]
 
 self.addEventListener('install', (e) => {
-  e.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(CACHE_FILES)))
+  e.waitUntil(
+    caches.open(CACHE_NAME).then((cache) => cache.addAll(CACHE_FILES))
+  )
   self.skipWaiting()
 })
 

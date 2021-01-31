@@ -34,16 +34,10 @@ This template is made to help you create modern, fast and completely secure prog
 ## Installation
 
 ```
-npm i -g create-modern-template
-// or
-yarn global add create-modern-template
-```
-
-## Usage
-
-```bash
-create-modern-template
-// without installation
+yarn create modern-template
+# or
+npm init modern-template
+# or
 npx create-modern-template
 ```
 
@@ -54,6 +48,8 @@ npx create-modern-template
 --git / -g -> initialize git
 --install / -i -> install dependencies
 ```
+
+## Usage
 
 ### Development Server
 
@@ -66,6 +62,8 @@ npm run dev / yarn dev
 ```bash
 npm start / yarn start
 ```
+
+Don't forget to change APP_WHATEVER.
 
 ## Author
 

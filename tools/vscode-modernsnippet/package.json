@@ -1,0 +1,32 @@
+{
+	"name": "modernsnippet",
+	"displayName": "Modern HTML Snippet",
+	"description": "Modern HTML Snippet",
+	"version": "0.1.0",
+	"engines": {
+		"vscode": "^1.52.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.code-snippets"
+			}
+		]
+	},
+	"keywords": [
+		"html",
+		"html5",
+		"snippet"
+	],
+	"author": "Igor Agapov @harryheman",
+	"publisher": "igor-agapov",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/harryheman/Modern-HTML-Starter-Template/tools/cli-create-modern-template"
+	}
+}
