@@ -4,10 +4,6 @@
 
 ![logo](https://moderntemplate.site/img/logo.png)
 
-## Description
-
-This template is made to help you create modern, fast and completely secure progressive web applications
-
 ## Includes
 
 - All Meta & Link Tags
@@ -31,36 +27,6 @@ This template is made to help you create modern, fast and completely secure prog
 
 [https://moderntemplate.site/](https://moderntemplate.site/)
 
-### Last Update: 2021-01-31
-
-## Node.js CLI
-
-[https://www.npmjs.com](https://www.npmjs.com/package/create-modern-template)
-
-## VSCode HTML Snippet
-
-[https://marketplace.visualstudio.com](https://marketplace.visualstudio.com/items?itemName=igor-agapov.modernsnippet)
-
-Enter `modernsnippet` or `HTML Modern Snippet` in VSCode Extensions
-
-## Installation
-
-```
-yarn create modern-template
-# or
-npm init modern-template
-# or
-npx create-modern-template
-```
-
-## Flags
-
-```bash
---yes / -y -> skip questions
---git / -g -> initialize git
---install / -i -> install dependencies
-```
-
 ## Usage
 
 ### Development Server
@@ -81,7 +47,7 @@ Don't forget to change APP_WHATEVER.
 
 ### Lighthouse
 
-![lighthouse](https://moderntemplate.site/img/light-house.png)
+![lighthouse](https://moderntemplate.site/img/lighthouse.png)
 
 ### WebPageTest
 

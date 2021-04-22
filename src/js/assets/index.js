@@ -12,7 +12,6 @@ export const assets = [
   'sitemap.xml',
   'browserconfig.xml',
   '.gitignore',
-  'README.md',
   'Creative Error 404 Page',
   'And More'
 ]

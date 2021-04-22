@@ -6,7 +6,7 @@
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#f0f0f0",
-  "theme_color": "#1c1c1c",
+  "theme_color": "#3c3c3c",
   "description": "Modern HTML Starter Template",
   "icons": [
     {
