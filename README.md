@@ -41,8 +41,6 @@ npm run dev / yarn dev
 npm start / yarn start
 ```
 
-Don't forget to change APP_WHATEVER.
-
 ## Tests
 
 ### Lighthouse
