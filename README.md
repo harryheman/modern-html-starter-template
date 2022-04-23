@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-![logo](https://moderntemplate.site/img/logo.png)
+![logo](https://mhst.netlify.app/img/logo.png)
 
 ## Includes
 
@@ -25,7 +25,7 @@
 
 ## Homepage
 
-[https://moderntemplate.site/](https://moderntemplate.site/)
+[https://mhst.netlify.app/](https://mhst.netlify.app/)
 
 ## Usage
 
@@ -45,19 +45,19 @@ npm start / yarn start
 
 ### Lighthouse
 
-![lighthouse](https://moderntemplate.site/img/lighthouse.png)
+![lighthouse](https://mhst.netlify.app/img/lighthouse.png)
 
 ### WebPageTest
 
-![webpagetest](https://moderntemplate.site/img/webpagetest.png)
+![webpagetest](https://mhst.netlify.app/img/webpagetest.png)
 
 ### SecurityHeaders
 
-![securityheaders](https://moderntemplate.site/img/securityheaders.png)
+![securityheaders](https://mhst.netlify.app/img/securityheaders.png)
 
 ### AMP
 
-![amp](https://moderntemplate.site/img/amp.png)
+![amp](https://mhst.netlify.app/img/amp.png)
 
 ## Author
 
