@@ -45,19 +45,19 @@ npm start / yarn start
 
 ### Lighthouse
 
-![lighthouse](https://mhst.netlify.app/img/lighthouse.png)
+![lighthouse](./img/lighthouse.png)
 
 ### WebPageTest
 
-![webpagetest](https://mhst.netlify.app/img/webpagetest.png)
+![webpagetest](./img/webpagetest.png)
 
 ### SecurityHeaders
 
-![securityheaders](https://mhst.netlify.app/img/securityheaders.png)
+![securityheaders](./img/securityheaders.png)
 
 ### AMP
 
-![amp](https://mhst.netlify.app/img/amp.png)
+![amp](./img/amp.png)
 
 ## Author
 
