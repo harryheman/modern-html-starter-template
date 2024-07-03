@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-![logo](https://mhst.netlify.app/img/logo.png)
+![logo](./img/logo.png)
 
 ## Includes
 
